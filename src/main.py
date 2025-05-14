@@ -85,7 +85,9 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, ob
     logger.info('Export path is %s.' % xp_path)
 
     logger.info('Dataset: %s' % dataset_name)
-    logger.info('Normal class: %d' % normal_class)
+    normal_class = [0,1,2,3,4]
+    logger.info(f'Normal class: {normal_class}')
+    # logger.info('Normal class: %d' % normal_class)
     logger.info('Network: %s' % net_name)
 
     # If specified, load experiment config from JSON-file

@@ -15,7 +15,11 @@ class MNIST_Dataset(TorchvisionDataset):
         self.n_classes = 2  # 0: normal, 1: outlier
         self.normal_classes = tuple([normal_class])
         self.outlier_classes = list(range(0, 10))
-        self.outlier_classes.remove(normal_class)
+        if type(normal_class) == int:
+            self.outlier_classes.remove(normal_class)
+        else:
+            self.outlier_classes = list(set(self.outlier_classes) - set(normal_class))
+        print(f"Outlier classes: {self.outlier_classes}")
 
         # Pre-computed min and max values (after applying GCN) from train data per class
         min_max = [(-0.8826567065619495, 9.001545489292527),
@@ -30,10 +34,20 @@ class MNIST_Dataset(TorchvisionDataset):
                    (-0.7369959242164307, 10.697039838804978)]
 
         # MNIST preprocessing: GCN (with L1 norm) and min-max feature scaling to [0,1]
-        transform = transforms.Compose([transforms.ToTensor(),
+        if len(normal_class) == 1:
+            # Single normal class
+            transform = transforms.Compose([transforms.ToTensor(),
                                         transforms.Lambda(lambda x: global_contrast_normalization(x, scale='l1')),
                                         transforms.Normalize([min_max[normal_class][0]],
                                                              [min_max[normal_class][1] - min_max[normal_class][0]])])
+        else:
+            # Multiple normal classes
+            global_min = min([min_max[i][0] for i in normal_class])
+            global_max = max([min_max[i][1] for i in normal_class])
+            transform = transforms.Compose([transforms.ToTensor(),
+                                        transforms.Lambda(lambda x: global_contrast_normalization(x, scale='l1')),
+                                        transforms.Normalize([global_min],
+                                                             [global_max - global_min])])
 
         target_transform = transforms.Lambda(lambda x: int(x in self.outlier_classes))
 
