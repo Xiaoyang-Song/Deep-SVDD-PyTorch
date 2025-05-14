@@ -1,0 +1,91 @@
+2025-05-13 21:47:27,484 - root - INFO - Log file is ../log/mnist_test_23689/log.txt.
+2025-05-13 21:47:27,484 - root - INFO - Data path is ../data.
+2025-05-13 21:47:27,484 - root - INFO - Export path is ../log/mnist_test_23689.
+2025-05-13 21:47:27,484 - root - INFO - Dataset: mnist
+2025-05-13 21:47:27,484 - root - INFO - Normal class: [2, 3, 6, 8, 9]
+2025-05-13 21:47:27,484 - root - INFO - Network: mnist_LeNet
+2025-05-13 21:47:27,484 - root - INFO - Deep SVDD objective: one-class
+2025-05-13 21:47:27,484 - root - INFO - Nu-paramerter: 0.10
+2025-05-13 21:47:27,549 - root - INFO - Computation device: cuda
+2025-05-13 21:47:27,549 - root - INFO - Number of dataloader workers: 4
+2025-05-13 21:47:27,600 - root - INFO - Pretraining: True
+2025-05-13 21:47:27,600 - root - INFO - Pretraining optimizer: adam
+2025-05-13 21:47:27,600 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-13 21:47:27,615 - root - INFO - Pretraining epochs: 150
+2025-05-13 21:47:27,615 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-13 21:47:27,616 - root - INFO - Pretraining batch size: 200
+2025-05-13 21:47:27,616 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-13 21:47:27,732 - root - INFO - Starting pretraining...
+2025-05-13 21:48:10,795 - root - INFO - Log file is ../log/mnist_test_23689/log.txt.
+2025-05-13 21:48:10,795 - root - INFO - Data path is ../data.
+2025-05-13 21:48:10,797 - root - INFO - Export path is ../log/mnist_test_23689.
+2025-05-13 21:48:10,797 - root - INFO - Dataset: mnist
+2025-05-13 21:48:10,797 - root - INFO - Normal class: [2, 3, 6, 8, 9]
+2025-05-13 21:48:10,798 - root - INFO - Network: mnist_LeNet
+2025-05-13 21:48:10,799 - root - INFO - Deep SVDD objective: one-class
+2025-05-13 21:48:10,799 - root - INFO - Nu-paramerter: 0.10
+2025-05-13 21:48:10,851 - root - INFO - Computation device: cuda
+2025-05-13 21:48:10,851 - root - INFO - Number of dataloader workers: 4
+2025-05-13 21:48:10,922 - root - INFO - Pretraining: True
+2025-05-13 21:48:10,922 - root - INFO - Pretraining optimizer: adam
+2025-05-13 21:48:10,922 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-13 21:48:10,922 - root - INFO - Pretraining epochs: 150
+2025-05-13 21:48:10,922 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-13 21:48:10,922 - root - INFO - Pretraining batch size: 200
+2025-05-13 21:48:10,922 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-13 21:48:11,033 - root - INFO - Starting pretraining...
+2025-05-13 21:48:38,124 - root - INFO - Log file is ../log/mnist_test_23689/log.txt.
+2025-05-13 21:48:38,126 - root - INFO - Data path is ../data.
+2025-05-13 21:48:38,126 - root - INFO - Export path is ../log/mnist_test_23689.
+2025-05-13 21:48:38,126 - root - INFO - Dataset: mnist
+2025-05-13 21:48:38,126 - root - INFO - Normal class: [2, 3, 6, 8, 9]
+2025-05-13 21:48:38,128 - root - INFO - Network: mnist_LeNet
+2025-05-13 21:48:38,128 - root - INFO - Deep SVDD objective: one-class
+2025-05-13 21:48:38,128 - root - INFO - Nu-paramerter: 0.10
+2025-05-13 21:48:38,174 - root - INFO - Computation device: cuda
+2025-05-13 21:48:38,174 - root - INFO - Number of dataloader workers: 2
+2025-05-13 21:48:38,247 - root - INFO - Pretraining: True
+2025-05-13 21:48:38,248 - root - INFO - Pretraining optimizer: adam
+2025-05-13 21:48:38,248 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-13 21:48:38,249 - root - INFO - Pretraining epochs: 150
+2025-05-13 21:48:38,249 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-13 21:48:38,249 - root - INFO - Pretraining batch size: 200
+2025-05-13 21:48:38,249 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-13 21:48:38,355 - root - INFO - Starting pretraining...
+2025-05-13 21:48:51,050 - root - INFO - Log file is ../log/mnist_test_23689/log.txt.
+2025-05-13 21:48:51,065 - root - INFO - Data path is ../data.
+2025-05-13 21:48:51,065 - root - INFO - Export path is ../log/mnist_test_23689.
+2025-05-13 21:48:51,065 - root - INFO - Dataset: mnist
+2025-05-13 21:48:51,065 - root - INFO - Normal class: [2, 3, 6, 8, 9]
+2025-05-13 21:48:51,065 - root - INFO - Network: mnist_LeNet
+2025-05-13 21:48:51,065 - root - INFO - Deep SVDD objective: one-class
+2025-05-13 21:48:51,065 - root - INFO - Nu-paramerter: 0.10
+2025-05-13 21:48:51,135 - root - INFO - Computation device: cuda
+2025-05-13 21:48:51,135 - root - INFO - Number of dataloader workers: 1
+2025-05-13 21:48:51,223 - root - INFO - Pretraining: True
+2025-05-13 21:48:51,224 - root - INFO - Pretraining optimizer: adam
+2025-05-13 21:48:51,224 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-13 21:48:51,225 - root - INFO - Pretraining epochs: 150
+2025-05-13 21:48:51,225 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-13 21:48:51,226 - root - INFO - Pretraining batch size: 200
+2025-05-13 21:48:51,226 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-13 21:48:51,367 - root - INFO - Starting pretraining...
+2025-05-13 21:49:03,812 - root - INFO - Log file is ../log/mnist_test_23689/log.txt.
+2025-05-13 21:49:03,812 - root - INFO - Data path is ../data.
+2025-05-13 21:49:03,812 - root - INFO - Export path is ../log/mnist_test_23689.
+2025-05-13 21:49:03,812 - root - INFO - Dataset: mnist
+2025-05-13 21:49:03,812 - root - INFO - Normal class: [2, 3, 6, 8, 9]
+2025-05-13 21:49:03,812 - root - INFO - Network: mnist_LeNet
+2025-05-13 21:49:03,812 - root - INFO - Deep SVDD objective: one-class
+2025-05-13 21:49:03,812 - root - INFO - Nu-paramerter: 0.10
+2025-05-13 21:49:03,838 - root - INFO - Computation device: cuda
+2025-05-13 21:49:03,838 - root - INFO - Number of dataloader workers: 0
+2025-05-13 21:49:03,898 - root - INFO - Pretraining: True
+2025-05-13 21:49:03,899 - root - INFO - Pretraining optimizer: adam
+2025-05-13 21:49:03,899 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-13 21:49:03,899 - root - INFO - Pretraining epochs: 150
+2025-05-13 21:49:03,900 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-13 21:49:03,900 - root - INFO - Pretraining batch size: 200
+2025-05-13 21:49:03,901 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-13 21:49:03,978 - root - INFO - Starting pretraining...
+2025-05-13 21:49:13,570 - root - INFO -   Epoch 1/150	 Time: 9.592	 Loss: 177.95337321
