@@ -3,12 +3,17 @@ import torch
 import logging
 import random
 import numpy as np
+import re
+import os
 
 from utils.config import Config
 from utils.visualization.plot_images_grid import plot_images_grid
 from deepSVDD import DeepSVDD
 from datasets.main import load_dataset
 
+#python main.py mnist mnist_LeNet ../log/mnist_test_23689 ../data --objective one-class --lr 0.0001 --n_epochs 150 --lr_milestone 50 
+#--batch_size 200 --weight_decay 0.5e-6 --pretrain True --ae_lr 0.0001 --ae_n_epochs 150 --ae_lr_milestone 50 --ae_batch_size 200 
+# --ae_weight_decay 0.5e-3 --normal_class "2,3,6,8,9" 
 
 ################################################################################
 # Settings
@@ -51,8 +56,10 @@ from datasets.main import load_dataset
               help='Weight decay (L2 penalty) hyperparameter for autoencoder objective.')
 @click.option('--n_jobs_dataloader', type=int, default=0,
               help='Number of workers for data loading. 0 means that the data will be loaded in the main process.')
-@click.option('--normal_class', type=int, default=0,
-              help='Specify the normal class of the dataset (all other classes are considered anomalous).')
+# @click.option('--normal_class', type=int, default=0,
+#               help='Specify the normal class of the dataset (all other classes are considered anomalous).')
+@click.option('--normal_class', type=str, default="0")
+
 def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, objective, nu, device, seed,
          optimizer_name, lr, n_epochs, lr_milestone, batch_size, weight_decay, pretrain, ae_optimizer_name, ae_lr,
          ae_n_epochs, ae_lr_milestone, ae_batch_size, ae_weight_decay, n_jobs_dataloader, normal_class):
@@ -85,7 +92,8 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, ob
     logger.info('Export path is %s.' % xp_path)
 
     logger.info('Dataset: %s' % dataset_name)
-    normal_class = [2, 3, 6, 8, 9]
+    # normal_class = [2, 3, 6, 8, 9]
+    normal_class = [int(i) for i in normal_class.split(',')]
     logger.info(f'Normal class: {normal_class}')
     # logger.info('Normal class: %d' % normal_class)
     logger.info('Network: %s' % net_name)
