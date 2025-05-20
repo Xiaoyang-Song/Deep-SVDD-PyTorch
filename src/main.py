@@ -19,7 +19,7 @@ from datasets.main import load_dataset
 # Settings
 ################################################################################
 @click.command()
-@click.argument('dataset_name', type=click.Choice(['mnist', 'cifar10']))
+@click.argument('dataset_name', type=click.Choice(['mnist', 'cifar10', 'svhn', 'fashionmnist']))
 @click.argument('net_name', type=click.Choice(['mnist_LeNet', 'cifar10_LeNet', 'cifar10_LeNet_ELU']))
 @click.argument('xp_path', type=click.Path(exists=True))
 @click.argument('data_path', type=click.Path(exists=True))
@@ -92,7 +92,6 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, ob
     logger.info('Export path is %s.' % xp_path)
 
     logger.info('Dataset: %s' % dataset_name)
-    # normal_class = [2, 3, 6, 8, 9]
     normal_class = [int(i) for i in normal_class.split(',')]
     logger.info(f'Normal class: {normal_class}')
     # logger.info('Normal class: %d' % normal_class)
@@ -179,11 +178,19 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, ob
     indices, labels, scores = np.array(indices), np.array(labels), np.array(scores)
     idx_sorted = indices[labels == 0][np.argsort(scores[labels == 0])]  # sorted from lowest to highest anomaly score
 
-    if dataset_name in ('mnist', 'cifar10', 'fashionmnist'):
+    if dataset_name in ('mnist', 'cifar10', 'fashionmnist', 'svhn'):
 
         if dataset_name == 'mnist':
             X_normals = dataset.test_set.test_data[idx_sorted[:32], ...].unsqueeze(1)
             X_outliers = dataset.test_set.test_data[idx_sorted[-32:], ...].unsqueeze(1)
+
+        elif dataset_name == 'fashionmnist':
+            X_normals = dataset.test_set.test_data[idx_sorted[:32], ...].unsqueeze(1)
+            X_outliers = dataset.test_set.test_data[idx_sorted[-32:], ...].unsqueeze(1)
+
+        elif dataset_name == 'svhn':
+            X_normals = torch.tensor(np.transpose(dataset.test_set.test_data[idx_sorted[:32], ...], (0, 3, 1, 2)))
+            X_outliers = torch.tensor(np.transpose(dataset.test_set.test_data[idx_sorted[-32:], ...], (0, 3, 1, 2)))
 
         if dataset_name == 'cifar10':
             X_normals = torch.tensor(np.transpose(dataset.test_set.test_data[idx_sorted[:32], ...], (0, 3, 1, 2)))

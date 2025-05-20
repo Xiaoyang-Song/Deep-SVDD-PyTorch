@@ -1,0 +1,10 @@
+2025-05-20 13:40:15,707 - root - INFO - Log file is ../log/svhn/log.txt.
+2025-05-20 13:40:15,707 - root - INFO - Data path is ../data.
+2025-05-20 13:40:15,707 - root - INFO - Export path is ../log/svhn.
+2025-05-20 13:40:15,707 - root - INFO - Dataset: svhn
+2025-05-20 13:40:15,707 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-20 13:40:15,707 - root - INFO - Network: cifar10_LeNet
+2025-05-20 13:40:15,707 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 13:40:15,707 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 13:40:15,749 - root - INFO - Computation device: cuda
+2025-05-20 13:40:15,749 - root - INFO - Number of dataloader workers: 0

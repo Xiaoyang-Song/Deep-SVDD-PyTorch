@@ -1,0 +1,31 @@
+2025-05-20 13:39:45,459 - root - INFO - Log file is ../log/mnist/log.txt.
+2025-05-20 13:39:45,460 - root - INFO - Data path is ../data.
+2025-05-20 13:39:45,460 - root - INFO - Export path is ../log/mnist.
+2025-05-20 13:39:45,460 - root - INFO - Dataset: mnist
+2025-05-20 13:39:45,460 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-20 13:39:45,460 - root - INFO - Network: mnist_LeNet
+2025-05-20 13:39:45,460 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 13:39:45,460 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 13:39:45,555 - root - INFO - Computation device: cuda
+2025-05-20 13:39:45,555 - root - INFO - Number of dataloader workers: 0
+2025-05-20 13:39:46,150 - root - INFO - Pretraining: True
+2025-05-20 13:39:46,150 - root - INFO - Pretraining optimizer: adam
+2025-05-20 13:39:46,151 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-20 13:39:46,151 - root - INFO - Pretraining epochs: 150
+2025-05-20 13:39:46,151 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-20 13:39:46,151 - root - INFO - Pretraining batch size: 200
+2025-05-20 13:39:46,151 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-20 13:39:56,605 - root - INFO - Starting pretraining...
+2025-05-20 13:40:14,275 - root - INFO -   Epoch 1/150	 Time: 17.659	 Loss: 94.13231041
+2025-05-20 13:40:29,484 - root - INFO -   Epoch 2/150	 Time: 15.209	 Loss: 17.81195962
+2025-05-20 13:40:44,620 - root - INFO -   Epoch 3/150	 Time: 15.134	 Loss: 8.33128123
+2025-05-20 13:40:59,751 - root - INFO -   Epoch 4/150	 Time: 15.130	 Loss: 5.41686063
+2025-05-20 13:41:14,867 - root - INFO -   Epoch 5/150	 Time: 15.115	 Loss: 4.20815456
+2025-05-20 13:41:29,996 - root - INFO -   Epoch 6/150	 Time: 15.129	 Loss: 3.59421011
+2025-05-20 13:41:45,234 - root - INFO -   Epoch 7/150	 Time: 15.238	 Loss: 3.22312696
+2025-05-20 13:42:00,434 - root - INFO -   Epoch 8/150	 Time: 15.200	 Loss: 2.96245536
+2025-05-20 13:42:15,652 - root - INFO -   Epoch 9/150	 Time: 15.218	 Loss: 2.74629407
+2025-05-20 13:42:30,957 - root - INFO -   Epoch 10/150	 Time: 15.305	 Loss: 2.57199495
+2025-05-20 13:42:46,249 - root - INFO -   Epoch 11/150	 Time: 15.292	 Loss: 2.42950552
+2025-05-20 13:43:01,554 - root - INFO -   Epoch 12/150	 Time: 15.304	 Loss: 2.31007869
+2025-05-20 13:43:16,816 - root - INFO -   Epoch 13/150	 Time: 15.259	 Loss: 2.20592569
