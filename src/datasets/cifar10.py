@@ -68,6 +68,7 @@ class MyCIFAR10(CIFAR10):
         # doing this so that it is consistent with all other datasets
         # to return a PIL Image
         img = Image.fromarray(img)
+        
 
         if self.transform is not None:
             img = self.transform(img)

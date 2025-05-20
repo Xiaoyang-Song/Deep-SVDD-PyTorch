@@ -8,3 +8,92 @@
 2025-05-20 13:40:15,707 - root - INFO - Nu-paramerter: 0.10
 2025-05-20 13:40:15,749 - root - INFO - Computation device: cuda
 2025-05-20 13:40:15,749 - root - INFO - Number of dataloader workers: 0
+2025-05-20 13:43:34,463 - root - INFO - Log file is ../log/svhn/log.txt.
+2025-05-20 13:43:34,464 - root - INFO - Data path is ../data.
+2025-05-20 13:43:34,464 - root - INFO - Export path is ../log/svhn.
+2025-05-20 13:43:34,464 - root - INFO - Dataset: svhn
+2025-05-20 13:43:34,464 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-20 13:43:34,464 - root - INFO - Network: cifar10_LeNet
+2025-05-20 13:43:34,464 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 13:43:34,464 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 13:43:34,545 - root - INFO - Computation device: cuda
+2025-05-20 13:43:34,545 - root - INFO - Number of dataloader workers: 0
+2025-05-20 13:45:21,445 - root - INFO - Log file is ../log/svhn/log.txt.
+2025-05-20 13:45:21,447 - root - INFO - Data path is ../data.
+2025-05-20 13:45:21,448 - root - INFO - Export path is ../log/svhn.
+2025-05-20 13:45:21,448 - root - INFO - Dataset: svhn
+2025-05-20 13:45:21,448 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-20 13:45:21,448 - root - INFO - Network: cifar10_LeNet
+2025-05-20 13:45:21,448 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 13:45:21,448 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 13:45:21,556 - root - INFO - Computation device: cuda
+2025-05-20 13:45:21,556 - root - INFO - Number of dataloader workers: 0
+2025-05-20 13:53:30,281 - root - INFO - Log file is ../log/svhn/log.txt.
+2025-05-20 13:53:30,282 - root - INFO - Data path is ../data.
+2025-05-20 13:53:30,282 - root - INFO - Export path is ../log/svhn.
+2025-05-20 13:53:30,282 - root - INFO - Dataset: svhn
+2025-05-20 13:53:30,282 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-20 13:53:30,282 - root - INFO - Network: cifar10_LeNet
+2025-05-20 13:53:30,282 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 13:53:30,282 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 13:53:30,312 - root - INFO - Computation device: cuda
+2025-05-20 13:53:30,312 - root - INFO - Number of dataloader workers: 0
+2025-05-20 13:55:02,607 - root - INFO - Log file is ../log/svhn/log.txt.
+2025-05-20 13:55:02,609 - root - INFO - Data path is ../data.
+2025-05-20 13:55:02,610 - root - INFO - Export path is ../log/svhn.
+2025-05-20 13:55:02,610 - root - INFO - Dataset: svhn
+2025-05-20 13:55:02,610 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-20 13:55:02,610 - root - INFO - Network: cifar10_LeNet
+2025-05-20 13:55:02,610 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 13:55:02,610 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 13:55:02,678 - root - INFO - Computation device: cuda
+2025-05-20 13:55:02,678 - root - INFO - Number of dataloader workers: 0
+2025-05-20 13:55:15,111 - root - INFO - Pretraining: True
+2025-05-20 13:55:15,111 - root - INFO - Pretraining optimizer: adam
+2025-05-20 13:55:15,111 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-20 13:55:15,111 - root - INFO - Pretraining epochs: 350
+2025-05-20 13:55:15,111 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-20 13:55:15,111 - root - INFO - Pretraining batch size: 200
+2025-05-20 13:55:15,111 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-20 13:55:28,343 - root - INFO - Starting pretraining...
+2025-05-20 13:56:43,685 - root - INFO - Log file is ../log/svhn/log.txt.
+2025-05-20 13:56:43,688 - root - INFO - Data path is ../data.
+2025-05-20 13:56:43,688 - root - INFO - Export path is ../log/svhn.
+2025-05-20 13:56:43,688 - root - INFO - Dataset: svhn
+2025-05-20 13:56:43,688 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-20 13:56:43,688 - root - INFO - Network: cifar10_LeNet
+2025-05-20 13:56:43,688 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 13:56:43,688 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 13:56:43,761 - root - INFO - Computation device: cuda
+2025-05-20 13:56:43,761 - root - INFO - Number of dataloader workers: 0
+2025-05-20 13:56:47,328 - root - INFO - Pretraining: True
+2025-05-20 13:56:47,329 - root - INFO - Pretraining optimizer: adam
+2025-05-20 13:56:47,329 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-20 13:56:47,329 - root - INFO - Pretraining epochs: 350
+2025-05-20 13:56:47,329 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-20 13:56:47,329 - root - INFO - Pretraining batch size: 200
+2025-05-20 13:56:47,329 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-20 13:56:50,128 - root - INFO - Starting pretraining...
+2025-05-20 14:28:13,268 - root - INFO - Log file is ../log/svhn/log.txt.
+2025-05-20 14:28:13,300 - root - INFO - Data path is ../data.
+2025-05-20 14:28:13,300 - root - INFO - Export path is ../log/svhn.
+2025-05-20 14:28:13,300 - root - INFO - Dataset: svhn
+2025-05-20 14:28:13,300 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-20 14:28:13,300 - root - INFO - Network: cifar10_LeNet
+2025-05-20 14:28:13,301 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 14:28:13,301 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 14:28:13,361 - root - INFO - Computation device: cuda
+2025-05-20 14:28:13,362 - root - INFO - Number of dataloader workers: 0
+2025-05-20 14:28:17,108 - root - INFO - Pretraining: True
+2025-05-20 14:28:17,109 - root - INFO - Pretraining optimizer: adam
+2025-05-20 14:28:17,109 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-20 14:28:17,109 - root - INFO - Pretraining epochs: 350
+2025-05-20 14:28:17,109 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-20 14:28:17,109 - root - INFO - Pretraining batch size: 200
+2025-05-20 14:28:17,109 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-20 14:28:19,933 - root - INFO - Starting pretraining...
+2025-05-20 14:28:30,797 - root - INFO -   Epoch 1/350	 Time: 10.859	 Loss: 42.55803013
+2025-05-20 14:28:41,308 - root - INFO -   Epoch 2/350	 Time: 10.511	 Loss: 22.62669071
+2025-05-20 14:28:51,888 - root - INFO -   Epoch 3/350	 Time: 10.579	 Loss: 18.90505759
+2025-05-20 14:29:02,450 - root - INFO -   Epoch 4/350	 Time: 10.561	 Loss: 16.72941100
+2025-05-20 14:29:12,955 - root - INFO -   Epoch 5/350	 Time: 10.504	 Loss: 15.25522695

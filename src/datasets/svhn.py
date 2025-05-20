@@ -3,8 +3,9 @@ from PIL import Image
 from torchvision.datasets import MNIST, SVHN
 from base.torchvision_dataset import TorchvisionDataset
 from .preprocessing import get_target_label_idx, global_contrast_normalization
-
+from collections import Counter
 import torchvision.transforms as transforms
+import numpy as np
 
 
 class SVHN_Dataset(TorchvisionDataset):
@@ -26,16 +27,13 @@ class SVHN_Dataset(TorchvisionDataset):
 
         target_transform = transforms.Lambda(lambda x: int(x in self.outlier_classes))
 
-        split = 'train' if self.train else 'test'
-
-        train_set = MySVHN(root=self.root, split=split, download=True,
-                            transform=transform, target_transform=target_transform)
+        train_set = MySVHN(root=self.root, split='train', download=True, transform=transform, target_transform=target_transform)
         # Subset train_set to normal class
-        train_idx_normal = get_target_label_idx(train_set.train_labels.clone().data.cpu().numpy(), self.normal_classes)
+        train_idx_normal = get_target_label_idx(train_set.labels, self.normal_classes)
+        # print(Counter(train_set.labels))
         self.train_set = Subset(train_set, train_idx_normal)
 
-        self.test_set = MySVHN(root=self.root, split=split, download=True,
-                                transform=transform, target_transform=target_transform)
+        self.test_set = MySVHN(root=self.root, split='test', download=True, transform=transform, target_transform=target_transform)
 
 
 class MySVHN(SVHN):
@@ -51,14 +49,14 @@ class MySVHN(SVHN):
         Returns:
             triple: (image, target, index) where target is index of the target class.
         """
-        if self.split == 'train':
-            img, target = self.train_data[index], self.train_labels[index]
-        else:
-            img, target = self.test_data[index], self.test_labels[index]
+
+        img, target = self.data[index], self.labels[index]
+        # print(img.shape)
+        # print(type(img))
 
         # doing this so that it is consistent with all other datasets
         # to return a PIL Image
-        img = Image.fromarray(img.numpy(), mode='L')
+        img = Image.fromarray(np.transpose(img, (1, 2, 0)))
 
         if self.transform is not None:
             img = self.transform(img)
@@ -67,3 +65,4 @@ class MySVHN(SVHN):
             target = self.target_transform(target)
 
         return img, target, index  # only line changed
+
