@@ -723,3 +723,20 @@
 2025-05-13 21:43:40,075 - root - INFO - Testing time: 2.766
 2025-05-13 21:43:40,106 - root - INFO - Test set AUC: 70.25%
 2025-05-13 21:43:40,106 - root - INFO - Finished testing.
+2025-05-19 21:51:27,310 - root - INFO - Log file is ../log/mnist_test/log.txt.
+2025-05-19 21:51:27,312 - root - INFO - Data path is ../data.
+2025-05-19 21:51:27,312 - root - INFO - Export path is ../log/mnist_test.
+2025-05-19 21:51:27,312 - root - INFO - Dataset: mnist
+2025-05-19 21:51:27,312 - root - INFO - Normal class: [0, 1, 2, 3, 4]
+2025-05-19 21:51:27,312 - root - INFO - Network: mnist_LeNet
+2025-05-19 21:51:27,312 - root - INFO - Deep SVDD objective: one-class
+2025-05-19 21:51:27,312 - root - INFO - Nu-paramerter: 0.10
+2025-05-19 21:51:27,355 - root - INFO - Computation device: cuda
+2025-05-19 21:51:27,355 - root - INFO - Number of dataloader workers: 0
+2025-05-19 21:51:29,189 - root - INFO - Pretraining: True
+2025-05-19 21:51:29,189 - root - INFO - Pretraining optimizer: adam
+2025-05-19 21:51:29,189 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-19 21:51:29,189 - root - INFO - Pretraining epochs: 150
+2025-05-19 21:51:29,190 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-19 21:51:29,190 - root - INFO - Pretraining batch size: 200
+2025-05-19 21:51:29,190 - root - INFO - Pretraining weight decay: 0.0005
