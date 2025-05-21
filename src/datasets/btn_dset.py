@@ -88,7 +88,10 @@ class MyBTNDataset(VisionDataset):
         if self.c != 1:
             img = Image.fromarray(img)
         else:
-            img = Image.fromarray(img.numpy(), mode='L')
+            if type(img) == np.ndarray:
+                img = Image.fromarray(img, mode='L')
+            else:
+                img = Image.fromarray(img.numpy(), mode='L')
         
         if self.transform is not None:
             img = self.transform(img)

@@ -94,3 +94,348 @@
 2025-05-21 14:47:58,897 - root - INFO -   Epoch 63/150	 Time: 5.279	 Loss: 10.61798658
 2025-05-21 14:48:04,213 - root - INFO -   Epoch 64/150	 Time: 5.316	 Loss: 10.61358798
 2025-05-21 14:48:09,508 - root - INFO -   Epoch 65/150	 Time: 5.294	 Loss: 10.60340430
+2025-05-21 14:48:14,793 - root - INFO -   Epoch 66/150	 Time: 5.285	 Loss: 10.59984515
+2025-05-21 14:48:20,075 - root - INFO -   Epoch 67/150	 Time: 5.281	 Loss: 10.59178747
+2025-05-21 14:48:25,356 - root - INFO -   Epoch 68/150	 Time: 5.280	 Loss: 10.58179643
+2025-05-21 14:48:30,640 - root - INFO -   Epoch 69/150	 Time: 5.284	 Loss: 10.57814476
+2025-05-21 14:48:35,925 - root - INFO -   Epoch 70/150	 Time: 5.285	 Loss: 10.56576178
+2025-05-21 14:48:41,212 - root - INFO -   Epoch 71/150	 Time: 5.287	 Loss: 10.55713765
+2025-05-21 14:48:46,499 - root - INFO -   Epoch 72/150	 Time: 5.286	 Loss: 10.55948941
+2025-05-21 14:48:51,786 - root - INFO -   Epoch 73/150	 Time: 5.287	 Loss: 10.55400659
+2025-05-21 14:48:57,070 - root - INFO -   Epoch 74/150	 Time: 5.284	 Loss: 10.54478111
+2025-05-21 14:49:02,361 - root - INFO -   Epoch 75/150	 Time: 5.290	 Loss: 10.53448183
+2025-05-21 14:49:07,654 - root - INFO -   Epoch 76/150	 Time: 5.293	 Loss: 10.52608670
+2025-05-21 14:49:12,965 - root - INFO -   Epoch 77/150	 Time: 5.311	 Loss: 10.51739272
+2025-05-21 14:49:18,243 - root - INFO -   Epoch 78/150	 Time: 5.278	 Loss: 10.51215379
+2025-05-21 14:49:23,525 - root - INFO -   Epoch 79/150	 Time: 5.282	 Loss: 10.50941391
+2025-05-21 14:49:28,810 - root - INFO -   Epoch 80/150	 Time: 5.285	 Loss: 10.50174014
+2025-05-21 14:49:34,097 - root - INFO -   Epoch 81/150	 Time: 5.287	 Loss: 10.49501816
+2025-05-21 14:49:39,384 - root - INFO -   Epoch 82/150	 Time: 5.286	 Loss: 10.48926847
+2025-05-21 14:49:44,660 - root - INFO -   Epoch 83/150	 Time: 5.276	 Loss: 10.48579005
+2025-05-21 14:49:49,944 - root - INFO -   Epoch 84/150	 Time: 5.283	 Loss: 10.47485077
+2025-05-21 14:49:55,220 - root - INFO -   Epoch 85/150	 Time: 5.276	 Loss: 10.47933086
+2025-05-21 14:50:00,502 - root - INFO -   Epoch 86/150	 Time: 5.282	 Loss: 10.46216591
+2025-05-21 14:50:05,775 - root - INFO -   Epoch 87/150	 Time: 5.273	 Loss: 10.45637980
+2025-05-21 14:50:11,056 - root - INFO -   Epoch 88/150	 Time: 5.281	 Loss: 10.44855304
+2025-05-21 14:50:16,343 - root - INFO -   Epoch 89/150	 Time: 5.287	 Loss: 10.44590952
+2025-05-21 14:50:21,670 - root - INFO -   Epoch 90/150	 Time: 5.326	 Loss: 10.44089630
+2025-05-21 14:50:26,951 - root - INFO -   Epoch 91/150	 Time: 5.281	 Loss: 10.44152694
+2025-05-21 14:50:32,237 - root - INFO -   Epoch 92/150	 Time: 5.285	 Loss: 10.43556631
+2025-05-21 14:50:37,521 - root - INFO -   Epoch 93/150	 Time: 5.284	 Loss: 10.42625598
+2025-05-21 14:50:42,798 - root - INFO -   Epoch 94/150	 Time: 5.277	 Loss: 10.41533429
+2025-05-21 14:50:48,082 - root - INFO -   Epoch 95/150	 Time: 5.283	 Loss: 10.41006226
+2025-05-21 14:50:53,362 - root - INFO -   Epoch 96/150	 Time: 5.281	 Loss: 10.40949890
+2025-05-21 14:50:58,652 - root - INFO -   Epoch 97/150	 Time: 5.289	 Loss: 10.39746629
+2025-05-21 14:51:03,943 - root - INFO -   Epoch 98/150	 Time: 5.291	 Loss: 10.39269474
+2025-05-21 14:51:09,242 - root - INFO -   Epoch 99/150	 Time: 5.299	 Loss: 10.38167851
+2025-05-21 14:51:14,526 - root - INFO -   Epoch 100/150	 Time: 5.284	 Loss: 10.38850334
+2025-05-21 14:51:19,823 - root - INFO -   Epoch 101/150	 Time: 5.297	 Loss: 10.36911166
+2025-05-21 14:51:25,119 - root - INFO -   Epoch 102/150	 Time: 5.295	 Loss: 10.37362617
+2025-05-21 14:51:30,446 - root - INFO -   Epoch 103/150	 Time: 5.328	 Loss: 10.36437156
+2025-05-21 14:51:35,740 - root - INFO -   Epoch 104/150	 Time: 5.293	 Loss: 10.35641704
+2025-05-21 14:51:41,035 - root - INFO -   Epoch 105/150	 Time: 5.295	 Loss: 10.34950199
+2025-05-21 14:51:46,323 - root - INFO -   Epoch 106/150	 Time: 5.287	 Loss: 10.35037084
+2025-05-21 14:51:51,611 - root - INFO -   Epoch 107/150	 Time: 5.287	 Loss: 10.33970243
+2025-05-21 14:51:56,897 - root - INFO -   Epoch 108/150	 Time: 5.285	 Loss: 10.33550166
+2025-05-21 14:52:02,184 - root - INFO -   Epoch 109/150	 Time: 5.286	 Loss: 10.32456545
+2025-05-21 14:52:07,480 - root - INFO -   Epoch 110/150	 Time: 5.296	 Loss: 10.32285862
+2025-05-21 14:52:12,778 - root - INFO -   Epoch 111/150	 Time: 5.298	 Loss: 10.31686018
+2025-05-21 14:52:18,076 - root - INFO -   Epoch 112/150	 Time: 5.297	 Loss: 10.30787211
+2025-05-21 14:52:23,366 - root - INFO -   Epoch 113/150	 Time: 5.290	 Loss: 10.30798141
+2025-05-21 14:52:28,662 - root - INFO -   Epoch 114/150	 Time: 5.296	 Loss: 10.29699409
+2025-05-21 14:52:33,953 - root - INFO -   Epoch 115/150	 Time: 5.291	 Loss: 10.28956942
+2025-05-21 14:52:39,281 - root - INFO -   Epoch 116/150	 Time: 5.327	 Loss: 10.28889079
+2025-05-21 14:52:44,560 - root - INFO -   Epoch 117/150	 Time: 5.279	 Loss: 10.28056202
+2025-05-21 14:52:49,858 - root - INFO -   Epoch 118/150	 Time: 5.298	 Loss: 10.27869581
+2025-05-21 14:52:55,147 - root - INFO -   Epoch 119/150	 Time: 5.289	 Loss: 10.27344947
+2025-05-21 14:53:00,442 - root - INFO -   Epoch 120/150	 Time: 5.295	 Loss: 10.26546593
+2025-05-21 14:53:05,738 - root - INFO -   Epoch 121/150	 Time: 5.296	 Loss: 10.26240731
+2025-05-21 14:53:11,026 - root - INFO -   Epoch 122/150	 Time: 5.288	 Loss: 10.25310827
+2025-05-21 14:53:16,317 - root - INFO -   Epoch 123/150	 Time: 5.290	 Loss: 10.25343224
+2025-05-21 14:53:21,610 - root - INFO -   Epoch 124/150	 Time: 5.293	 Loss: 10.23988367
+2025-05-21 14:53:26,911 - root - INFO -   Epoch 125/150	 Time: 5.301	 Loss: 10.23940317
+2025-05-21 14:53:32,207 - root - INFO -   Epoch 126/150	 Time: 5.295	 Loss: 10.23424752
+2025-05-21 14:53:37,516 - root - INFO -   Epoch 127/150	 Time: 5.309	 Loss: 10.22938834
+2025-05-21 14:53:42,825 - root - INFO -   Epoch 128/150	 Time: 5.308	 Loss: 10.22853450
+2025-05-21 14:53:48,154 - root - INFO -   Epoch 129/150	 Time: 5.329	 Loss: 10.21581494
+2025-05-21 14:53:53,448 - root - INFO -   Epoch 130/150	 Time: 5.294	 Loss: 10.21870133
+2025-05-21 14:53:58,731 - root - INFO -   Epoch 131/150	 Time: 5.282	 Loss: 10.20739713
+2025-05-21 14:54:04,013 - root - INFO -   Epoch 132/150	 Time: 5.282	 Loss: 10.19779171
+2025-05-21 14:54:09,298 - root - INFO -   Epoch 133/150	 Time: 5.285	 Loss: 10.19789032
+2025-05-21 14:54:14,571 - root - INFO -   Epoch 134/150	 Time: 5.273	 Loss: 10.18794999
+2025-05-21 14:54:19,847 - root - INFO -   Epoch 135/150	 Time: 5.275	 Loss: 10.18607233
+2025-05-21 14:54:25,123 - root - INFO -   Epoch 136/150	 Time: 5.276	 Loss: 10.18720111
+2025-05-21 14:54:30,400 - root - INFO -   Epoch 137/150	 Time: 5.277	 Loss: 10.17975372
+2025-05-21 14:54:35,704 - root - INFO -   Epoch 138/150	 Time: 5.303	 Loss: 10.16970243
+2025-05-21 14:54:41,014 - root - INFO -   Epoch 139/150	 Time: 5.310	 Loss: 10.16985771
+2025-05-21 14:54:46,314 - root - INFO -   Epoch 140/150	 Time: 5.300	 Loss: 10.16247296
+2025-05-21 14:54:51,619 - root - INFO -   Epoch 141/150	 Time: 5.305	 Loss: 10.15924199
+2025-05-21 14:54:56,917 - root - INFO -   Epoch 142/150	 Time: 5.298	 Loss: 10.15528508
+2025-05-21 14:55:02,215 - root - INFO -   Epoch 143/150	 Time: 5.297	 Loss: 10.14355485
+2025-05-21 14:55:07,509 - root - INFO -   Epoch 144/150	 Time: 5.294	 Loss: 10.14148583
+2025-05-21 14:55:12,803 - root - INFO -   Epoch 145/150	 Time: 5.294	 Loss: 10.14083549
+2025-05-21 14:55:18,100 - root - INFO -   Epoch 146/150	 Time: 5.296	 Loss: 10.13957334
+2025-05-21 14:55:23,396 - root - INFO -   Epoch 147/150	 Time: 5.296	 Loss: 10.12583453
+2025-05-21 14:55:28,696 - root - INFO -   Epoch 148/150	 Time: 5.301	 Loss: 10.12273213
+2025-05-21 14:55:33,999 - root - INFO -   Epoch 149/150	 Time: 5.302	 Loss: 10.11140497
+2025-05-21 14:55:39,303 - root - INFO -   Epoch 150/150	 Time: 5.304	 Loss: 10.11283597
+2025-05-21 14:55:39,303 - root - INFO - Pretraining time: 792.631
+2025-05-21 14:55:39,303 - root - INFO - Finished pretraining.
+2025-05-21 14:55:39,303 - root - INFO - Testing autoencoder...
+2025-05-21 14:57:39,315 - root - INFO - Log file is ../log/mnist-fashionmnist/log.txt.
+2025-05-21 14:57:39,327 - root - INFO - Data path is ../data.
+2025-05-21 14:57:39,327 - root - INFO - Export path is ../log/mnist-fashionmnist.
+2025-05-21 14:57:39,327 - root - INFO - Dataset: mnist-fashionmnist
+2025-05-21 14:57:39,327 - root - INFO - Normal class: [0]
+2025-05-21 14:57:39,327 - root - INFO - Conducting cross-dataset experiment...
+2025-05-21 14:57:39,327 - root - INFO - Network: mnist_LeNet
+2025-05-21 14:57:39,327 - root - INFO - Deep SVDD objective: one-class
+2025-05-21 14:57:39,327 - root - INFO - Nu-paramerter: 0.10
+2025-05-21 14:57:39,360 - root - INFO - Computation device: cuda
+2025-05-21 14:57:39,361 - root - INFO - Number of dataloader workers: 0
+2025-05-21 14:57:43,211 - root - INFO - Pretraining: True
+2025-05-21 14:57:43,212 - root - INFO - Pretraining optimizer: adam
+2025-05-21 14:57:43,212 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-21 14:57:43,284 - root - INFO - Pretraining epochs: 150
+2025-05-21 14:57:43,285 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-21 14:57:43,285 - root - INFO - Pretraining batch size: 200
+2025-05-21 14:57:43,285 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-21 14:57:47,889 - root - INFO - Starting pretraining...
+2025-05-21 15:17:38,939 - root - INFO - Log file is ../log/mnist-fashionmnist/log.txt.
+2025-05-21 15:17:38,968 - root - INFO - Data path is ../data.
+2025-05-21 15:17:38,968 - root - INFO - Export path is ../log/mnist-fashionmnist.
+2025-05-21 15:17:38,968 - root - INFO - Dataset: mnist-fashionmnist
+2025-05-21 15:17:38,968 - root - INFO - Normal class: [0]
+2025-05-21 15:17:38,968 - root - INFO - Conducting cross-dataset experiment...
+2025-05-21 15:17:38,968 - root - INFO - Network: mnist_LeNet
+2025-05-21 15:17:38,968 - root - INFO - Deep SVDD objective: one-class
+2025-05-21 15:17:38,968 - root - INFO - Nu-paramerter: 0.10
+2025-05-21 15:17:38,997 - root - INFO - Computation device: cuda
+2025-05-21 15:17:38,997 - root - INFO - Number of dataloader workers: 0
+2025-05-21 15:17:39,369 - root - INFO - Pretraining: True
+2025-05-21 15:17:39,369 - root - INFO - Pretraining optimizer: adam
+2025-05-21 15:17:39,369 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-21 15:17:39,369 - root - INFO - Pretraining epochs: 150
+2025-05-21 15:17:39,369 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-21 15:17:39,369 - root - INFO - Pretraining batch size: 200
+2025-05-21 15:17:39,369 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-21 15:17:43,013 - root - INFO - Starting pretraining...
+2025-05-21 15:22:19,343 - root - INFO - Log file is ../log/mnist-fashionmnist/log.txt.
+2025-05-21 15:22:19,356 - root - INFO - Data path is ../data.
+2025-05-21 15:22:19,356 - root - INFO - Export path is ../log/mnist-fashionmnist.
+2025-05-21 15:22:19,356 - root - INFO - Dataset: mnist-fashionmnist
+2025-05-21 15:22:19,356 - root - INFO - Normal class: [0]
+2025-05-21 15:22:19,356 - root - INFO - Conducting cross-dataset experiment...
+2025-05-21 15:22:19,356 - root - INFO - Network: mnist_LeNet
+2025-05-21 15:22:19,357 - root - INFO - Deep SVDD objective: one-class
+2025-05-21 15:22:19,357 - root - INFO - Nu-paramerter: 0.10
+2025-05-21 15:22:19,408 - root - INFO - Computation device: cuda
+2025-05-21 15:22:19,408 - root - INFO - Number of dataloader workers: 0
+2025-05-21 15:22:19,657 - root - INFO - Pretraining: True
+2025-05-21 15:22:19,657 - root - INFO - Pretraining optimizer: adam
+2025-05-21 15:22:19,657 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-21 15:22:19,658 - root - INFO - Pretraining epochs: 1
+2025-05-21 15:22:19,658 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-21 15:22:19,658 - root - INFO - Pretraining batch size: 200
+2025-05-21 15:22:19,658 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-21 15:22:22,561 - root - INFO - Starting pretraining...
+2025-05-21 15:23:18,382 - root - INFO - Log file is ../log/mnist-fashionmnist/log.txt.
+2025-05-21 15:23:18,383 - root - INFO - Data path is ../data.
+2025-05-21 15:23:18,383 - root - INFO - Export path is ../log/mnist-fashionmnist.
+2025-05-21 15:23:18,383 - root - INFO - Dataset: mnist-fashionmnist
+2025-05-21 15:23:18,383 - root - INFO - Normal class: [0]
+2025-05-21 15:23:18,383 - root - INFO - Conducting cross-dataset experiment...
+2025-05-21 15:23:18,383 - root - INFO - Network: mnist_LeNet
+2025-05-21 15:23:18,383 - root - INFO - Deep SVDD objective: one-class
+2025-05-21 15:23:18,384 - root - INFO - Nu-paramerter: 0.10
+2025-05-21 15:23:18,414 - root - INFO - Computation device: cuda
+2025-05-21 15:23:18,414 - root - INFO - Number of dataloader workers: 0
+2025-05-21 15:23:18,503 - root - INFO - Pretraining: True
+2025-05-21 15:23:18,503 - root - INFO - Pretraining optimizer: adam
+2025-05-21 15:23:18,503 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-21 15:23:18,503 - root - INFO - Pretraining epochs: 1
+2025-05-21 15:23:18,503 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-21 15:23:18,503 - root - INFO - Pretraining batch size: 200
+2025-05-21 15:23:18,503 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-21 15:23:21,322 - root - INFO - Starting pretraining...
+2025-05-21 15:23:26,855 - root - INFO -   Epoch 1/1	 Time: 5.531	 Loss: 86.60527344
+2025-05-21 15:23:26,855 - root - INFO - Pretraining time: 5.532
+2025-05-21 15:23:26,855 - root - INFO - Finished pretraining.
+2025-05-21 15:23:26,856 - root - INFO - Testing autoencoder...
+2025-05-21 15:23:28,260 - root - INFO - Test set Loss: 62.57304073
+2025-05-21 15:23:28,273 - root - INFO - Test set AUC: 64.73%
+2025-05-21 15:23:28,273 - root - INFO - Autoencoder testing time: 1.417
+2025-05-21 15:23:28,273 - root - INFO - Finished testing autoencoder.
+2025-05-21 15:23:28,274 - root - INFO - Training optimizer: adam
+2025-05-21 15:23:28,275 - root - INFO - Training learning rate: 0.0001
+2025-05-21 15:23:28,275 - root - INFO - Training epochs: 1
+2025-05-21 15:23:28,275 - root - INFO - Training learning rate scheduler milestones: (50,)
+2025-05-21 15:23:28,275 - root - INFO - Training batch size: 200
+2025-05-21 15:23:28,275 - root - INFO - Training weight decay: 5e-07
+2025-05-21 15:23:28,275 - root - INFO - Initializing center c...
+2025-05-21 15:23:32,507 - root - INFO - Center c initialized.
+2025-05-21 15:23:32,507 - root - INFO - Starting training...
+2025-05-21 15:23:37,254 - root - INFO -   Epoch 1/1	 Time: 4.746	 Loss: 0.49836026
+2025-05-21 15:23:37,254 - root - INFO - Training time: 4.746
+2025-05-21 15:23:37,254 - root - INFO - Finished training.
+2025-05-21 15:23:37,254 - root - INFO - Starting testing...
+2025-05-21 15:23:38,609 - root - INFO - Testing time: 1.355
+2025-05-21 15:23:38,708 - root - INFO - Test set AUC: 99.21%
+2025-05-21 15:23:38,709 - root - INFO - Testing TPR95: 0.9607
+2025-05-21 15:23:38,709 - root - INFO - Finished testing.
+2025-05-21 15:24:55,935 - root - INFO - Log file is ../log/mnist-fashionmnist/log.txt.
+2025-05-21 15:24:55,936 - root - INFO - Data path is ../data.
+2025-05-21 15:24:55,936 - root - INFO - Export path is ../log/mnist-fashionmnist.
+2025-05-21 15:24:55,936 - root - INFO - Dataset: mnist-fashionmnist
+2025-05-21 15:24:55,936 - root - INFO - Normal class: [0]
+2025-05-21 15:24:55,936 - root - INFO - Conducting cross-dataset experiment...
+2025-05-21 15:24:55,936 - root - INFO - Network: mnist_LeNet
+2025-05-21 15:24:55,936 - root - INFO - Deep SVDD objective: one-class
+2025-05-21 15:24:55,936 - root - INFO - Nu-paramerter: 0.10
+2025-05-21 15:24:55,961 - root - INFO - Computation device: cuda
+2025-05-21 15:24:55,962 - root - INFO - Number of dataloader workers: 0
+2025-05-21 15:24:56,050 - root - INFO - Pretraining: True
+2025-05-21 15:24:56,050 - root - INFO - Pretraining optimizer: adam
+2025-05-21 15:24:56,051 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-21 15:24:56,051 - root - INFO - Pretraining epochs: 1
+2025-05-21 15:24:56,051 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-21 15:24:56,051 - root - INFO - Pretraining batch size: 200
+2025-05-21 15:24:56,051 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-21 15:24:58,843 - root - INFO - Starting pretraining...
+2025-05-21 15:25:04,310 - root - INFO -   Epoch 1/1	 Time: 5.466	 Loss: 81.12669120
+2025-05-21 15:25:04,310 - root - INFO - Pretraining time: 5.468
+2025-05-21 15:25:04,310 - root - INFO - Finished pretraining.
+2025-05-21 15:25:04,311 - root - INFO - Testing autoencoder...
+2025-05-21 15:25:05,701 - root - INFO - Test set Loss: 63.16275570
+2025-05-21 15:25:05,713 - root - INFO - Test set AUC: 70.74%
+2025-05-21 15:25:05,714 - root - INFO - Autoencoder testing time: 1.403
+2025-05-21 15:25:05,714 - root - INFO - Finished testing autoencoder.
+2025-05-21 15:25:05,715 - root - INFO - Training optimizer: adam
+2025-05-21 15:25:05,715 - root - INFO - Training learning rate: 0.0001
+2025-05-21 15:25:05,716 - root - INFO - Training epochs: 1
+2025-05-21 15:25:05,716 - root - INFO - Training learning rate scheduler milestones: (50,)
+2025-05-21 15:25:05,718 - root - INFO - Training batch size: 200
+2025-05-21 15:25:05,718 - root - INFO - Training weight decay: 5e-07
+2025-05-21 15:25:05,718 - root - INFO - Initializing center c...
+2025-05-21 15:25:09,881 - root - INFO - Center c initialized.
+2025-05-21 15:25:09,881 - root - INFO - Starting training...
+2025-05-21 15:25:14,549 - root - INFO -   Epoch 1/1	 Time: 4.668	 Loss: 1.12523365
+2025-05-21 15:25:14,550 - root - INFO - Training time: 4.669
+2025-05-21 15:25:14,550 - root - INFO - Finished training.
+2025-05-21 15:25:14,550 - root - INFO - Starting testing...
+2025-05-21 15:25:15,885 - root - INFO - Testing time: 1.335
+2025-05-21 15:25:15,984 - root - INFO - Test set AUC: 99.62%
+2025-05-21 15:25:15,985 - root - INFO - Testing TPR95: 0.9860
+2025-05-21 15:25:15,985 - root - INFO - Finished testing.
+2025-05-21 15:25:39,730 - root - INFO - Log file is ../log/mnist-fashionmnist/log.txt.
+2025-05-21 15:25:39,731 - root - INFO - Data path is ../data.
+2025-05-21 15:25:39,731 - root - INFO - Export path is ../log/mnist-fashionmnist.
+2025-05-21 15:25:39,731 - root - INFO - Dataset: mnist-fashionmnist
+2025-05-21 15:25:39,731 - root - INFO - Normal class: [0]
+2025-05-21 15:25:39,731 - root - INFO - Conducting cross-dataset experiment...
+2025-05-21 15:25:39,731 - root - INFO - Network: mnist_LeNet
+2025-05-21 15:25:39,731 - root - INFO - Deep SVDD objective: one-class
+2025-05-21 15:25:39,732 - root - INFO - Nu-paramerter: 0.10
+2025-05-21 15:25:39,758 - root - INFO - Computation device: cuda
+2025-05-21 15:25:39,758 - root - INFO - Number of dataloader workers: 0
+2025-05-21 15:25:39,846 - root - INFO - Pretraining: True
+2025-05-21 15:25:39,846 - root - INFO - Pretraining optimizer: adam
+2025-05-21 15:25:39,846 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-21 15:25:39,847 - root - INFO - Pretraining epochs: 1
+2025-05-21 15:25:39,847 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-21 15:25:39,847 - root - INFO - Pretraining batch size: 200
+2025-05-21 15:25:39,847 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-21 15:25:42,649 - root - INFO - Starting pretraining...
+2025-05-21 15:25:48,134 - root - INFO -   Epoch 1/1	 Time: 5.483	 Loss: 66.23981518
+2025-05-21 15:25:48,134 - root - INFO - Pretraining time: 5.484
+2025-05-21 15:25:48,134 - root - INFO - Finished pretraining.
+2025-05-21 15:25:48,135 - root - INFO - Testing autoencoder...
+2025-05-21 15:25:49,522 - root - INFO - Test set Loss: 63.00320339
+2025-05-21 15:25:49,534 - root - INFO - Test set AUC: 71.09%
+2025-05-21 15:25:49,535 - root - INFO - Autoencoder testing time: 1.400
+2025-05-21 15:25:49,535 - root - INFO - Finished testing autoencoder.
+2025-05-21 15:25:49,536 - root - INFO - Training optimizer: adam
+2025-05-21 15:25:49,536 - root - INFO - Training learning rate: 0.0001
+2025-05-21 15:25:49,536 - root - INFO - Training epochs: 1
+2025-05-21 15:25:49,537 - root - INFO - Training learning rate scheduler milestones: (50,)
+2025-05-21 15:25:49,537 - root - INFO - Training batch size: 200
+2025-05-21 15:25:49,537 - root - INFO - Training weight decay: 5e-07
+2025-05-21 15:25:49,537 - root - INFO - Initializing center c...
+2025-05-21 15:25:53,723 - root - INFO - Center c initialized.
+2025-05-21 15:25:53,723 - root - INFO - Starting training...
+2025-05-21 15:25:58,405 - root - INFO -   Epoch 1/1	 Time: 4.682	 Loss: 0.41394832
+2025-05-21 15:25:58,406 - root - INFO - Training time: 4.683
+2025-05-21 15:25:58,406 - root - INFO - Finished training.
+2025-05-21 15:25:58,406 - root - INFO - Starting testing...
+2025-05-21 15:25:59,738 - root - INFO - Testing time: 1.332
+2025-05-21 15:25:59,837 - root - INFO - Test set AUC: 99.05%
+2025-05-21 15:25:59,838 - root - INFO - Testing TPR95: 0.9460
+2025-05-21 15:25:59,838 - root - INFO - Finished testing.
+2025-05-21 15:29:03,757 - root - INFO - Log file is ../log/mnist-fashionmnist/log.txt.
+2025-05-21 15:29:03,758 - root - INFO - Data path is ../data.
+2025-05-21 15:29:03,758 - root - INFO - Export path is ../log/mnist-fashionmnist.
+2025-05-21 15:29:03,758 - root - INFO - Dataset: mnist-fashionmnist
+2025-05-21 15:29:03,758 - root - INFO - Normal class: [0]
+2025-05-21 15:29:03,758 - root - INFO - Conducting cross-dataset experiment...
+2025-05-21 15:29:03,758 - root - INFO - Network: mnist_LeNet
+2025-05-21 15:29:03,758 - root - INFO - Deep SVDD objective: one-class
+2025-05-21 15:29:03,758 - root - INFO - Nu-paramerter: 0.10
+2025-05-21 15:29:03,783 - root - INFO - Computation device: cuda
+2025-05-21 15:29:03,784 - root - INFO - Number of dataloader workers: 0
+2025-05-21 15:29:03,872 - root - INFO - Pretraining: True
+2025-05-21 15:29:03,872 - root - INFO - Pretraining optimizer: adam
+2025-05-21 15:29:03,872 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-21 15:29:03,873 - root - INFO - Pretraining epochs: 1
+2025-05-21 15:29:03,873 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-21 15:29:03,873 - root - INFO - Pretraining batch size: 200
+2025-05-21 15:29:03,873 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-21 15:29:06,666 - root - INFO - Starting pretraining...
+2025-05-21 15:29:12,153 - root - INFO -   Epoch 1/1	 Time: 5.485	 Loss: 167.60388357
+2025-05-21 15:29:12,153 - root - INFO - Pretraining time: 5.486
+2025-05-21 15:29:12,153 - root - INFO - Finished pretraining.
+2025-05-21 15:29:12,154 - root - INFO - Testing autoencoder...
+2025-05-21 15:29:13,545 - root - INFO - Test set Loss: 79.37086716
+2025-05-21 15:29:13,557 - root - INFO - Test set AUC: 43.01%
+2025-05-21 15:29:13,558 - root - INFO - Autoencoder testing time: 1.404
+2025-05-21 15:29:13,558 - root - INFO - Finished testing autoencoder.
+2025-05-21 15:29:13,559 - root - INFO - Training optimizer: adam
+2025-05-21 15:29:13,559 - root - INFO - Training learning rate: 0.0001
+2025-05-21 15:29:13,559 - root - INFO - Training epochs: 1
+2025-05-21 15:29:13,559 - root - INFO - Training learning rate scheduler milestones: (50,)
+2025-05-21 15:29:13,560 - root - INFO - Training batch size: 200
+2025-05-21 15:29:13,560 - root - INFO - Training weight decay: 5e-07
+2025-05-21 15:29:13,560 - root - INFO - Initializing center c...
+2025-05-21 15:29:17,730 - root - INFO - Center c initialized.
+2025-05-21 15:29:17,730 - root - INFO - Starting training...
+2025-05-21 15:29:22,406 - root - INFO -   Epoch 1/1	 Time: 4.675	 Loss: 0.98094798
+2025-05-21 15:29:22,406 - root - INFO - Training time: 4.676
+2025-05-21 15:29:22,406 - root - INFO - Finished training.
+2025-05-21 15:29:22,406 - root - INFO - Starting testing...
+2025-05-21 15:29:23,743 - root - INFO - Testing time: 1.336
+2025-05-21 15:29:23,842 - root - INFO - Test set AUC: 98.37%
+2025-05-21 15:29:23,843 - root - INFO - Testing TPR95: 0.9026
+2025-05-21 15:29:23,843 - root - INFO - Finished testing.
+2025-05-21 15:29:57,303 - root - INFO - Log file is ../log/mnist-fashionmnist/log.txt.
+2025-05-21 15:29:57,324 - root - INFO - Data path is ../data.
+2025-05-21 15:29:57,324 - root - INFO - Export path is ../log/mnist-fashionmnist.
+2025-05-21 15:29:57,324 - root - INFO - Dataset: mnist-fashionmnist
+2025-05-21 15:29:57,324 - root - INFO - Normal class: [0]
+2025-05-21 15:29:57,324 - root - INFO - Conducting cross-dataset experiment...
+2025-05-21 15:29:57,324 - root - INFO - Network: mnist_LeNet
+2025-05-21 15:29:57,324 - root - INFO - Deep SVDD objective: one-class
+2025-05-21 15:29:57,324 - root - INFO - Nu-paramerter: 0.10
+2025-05-21 15:29:57,354 - root - INFO - Computation device: cuda
+2025-05-21 15:29:57,354 - root - INFO - Number of dataloader workers: 0
+2025-05-21 15:29:57,735 - root - INFO - Pretraining: True
+2025-05-21 15:29:57,736 - root - INFO - Pretraining optimizer: adam
+2025-05-21 15:29:57,736 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-21 15:29:57,736 - root - INFO - Pretraining epochs: 150
+2025-05-21 15:29:57,736 - root - INFO - Pretraining learning rate scheduler milestones: (50,)
+2025-05-21 15:29:57,736 - root - INFO - Pretraining batch size: 200
+2025-05-21 15:29:57,736 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-21 15:30:02,380 - root - INFO - Starting pretraining...
+2025-05-21 15:30:09,405 - root - INFO -   Epoch 1/150	 Time: 7.021	 Loss: 103.85025639
+2025-05-21 15:30:15,775 - root - INFO -   Epoch 2/150	 Time: 6.314	 Loss: 51.02660765
+2025-05-21 15:30:22,076 - root - INFO -   Epoch 3/150	 Time: 6.300	 Loss: 42.42823352
+2025-05-21 15:30:28,351 - root - INFO -   Epoch 4/150	 Time: 6.275	 Loss: 36.91437012
+2025-05-21 15:30:34,666 - root - INFO -   Epoch 5/150	 Time: 6.314	 Loss: 32.11148308
