@@ -1,13 +1,13 @@
 from torch.utils.data import Subset
 from PIL import Image
-from torchvision.datasets import CIFAR10
+from torchvision.datasets import CIFAR10, SVHN, MNIST, FashionMNIST
 from base.torchvision_dataset import TorchvisionDataset
 from .preprocessing import get_target_label_idx, global_contrast_normalization
 
 import torchvision.transforms as transforms
 
 
-class CIFAR10_Dataset(TorchvisionDataset):
+class BTNDataset(TorchvisionDataset):
 
     def __init__(self, root: str, normal_class=5):
         super().__init__(root)
@@ -15,11 +15,7 @@ class CIFAR10_Dataset(TorchvisionDataset):
         self.n_classes = 2  # 0: normal, 1: outlier
         self.normal_classes = tuple([normal_class])
         self.outlier_classes = list(range(0, 10))
-        if type(normal_class) == int:
-            self.outlier_classes.remove(normal_class)
-        else:
-            self.outlier_classes = list(set(self.outlier_classes) - set(normal_class))
-        print(f"Outlier classes: {self.outlier_classes}")
+        self.outlier_classes.remove(normal_class)
 
         # Pre-computed min and max values (after applying GCN) from train data per class
         min_max = [(-28.94083453598571, 13.802961825439636),
@@ -32,32 +28,30 @@ class CIFAR10_Dataset(TorchvisionDataset):
                    (-6.876682005899029, 12.282371383343161),
                    (-15.603507135507172, 15.2464923804279),
                    (-6.132882973622672, 8.046098172351265)]
-        # MNIST preprocessing: GCN (with L1 norm) and min-max feature scaling to [0,1]
 
-        global_min = min([min_max[i][0] for i in normal_class])
-        global_max = max([min_max[i][1] for i in normal_class])
+        # CIFAR-10 preprocessing: GCN (with L1 norm) and min-max feature scaling to [0,1]
         transform = transforms.Compose([transforms.ToTensor(),
-                                    transforms.Lambda(lambda x: global_contrast_normalization(x, scale='l1')),
-                                    transforms.Normalize([global_min],
-                                                            [global_max - global_min])])
+                                        transforms.Lambda(lambda x: global_contrast_normalization(x, scale='l1')),
+                                        transforms.Normalize([min_max[normal_class][0]] * 3,
+                                                             [min_max[normal_class][1] - min_max[normal_class][0]] * 3)])
 
         target_transform = transforms.Lambda(lambda x: int(x in self.outlier_classes))
 
         train_set = MyCIFAR10(root=self.root, train=True, download=True,
                               transform=transform, target_transform=target_transform)
         # Subset train set to normal class
-        train_idx_normal = get_target_label_idx(train_set.targets, self.normal_classes)
+        train_idx_normal = get_target_label_idx(train_set.train_labels, self.normal_classes)
         self.train_set = Subset(train_set, train_idx_normal)
 
         self.test_set = MyCIFAR10(root=self.root, train=False, download=True,
                                   transform=transform, target_transform=target_transform)
 
 
-class MyCIFAR10(CIFAR10):
+class MyBTNDataset(TorchvisionDataset):
     """Torchvision CIFAR10 class with patch of __getitem__ method to also return the index of a data sample."""
 
     def __init__(self, *args, **kwargs):
-        super(MyCIFAR10, self).__init__(*args, **kwargs)
+        super(MyBTNDataset, self).__init__(*args, **kwargs)
 
     def __getitem__(self, index):
         """Override the original method of the CIFAR10 class.
@@ -66,8 +60,10 @@ class MyCIFAR10(CIFAR10):
         Returns:
             triple: (image, target, index) where target is index of the target class.
         """
-
-        img, target = self.data[index], self.targets[index]
+        if self.train:
+            img, target = self.train_data[index], self.train_labels[index]
+        else:
+            img, target = self.test_data[index], self.test_labels[index]
 
         # doing this so that it is consistent with all other datasets
         # to return a PIL Image

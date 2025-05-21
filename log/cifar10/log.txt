@@ -1,0 +1,135 @@
+2025-05-20 23:34:15,671 - root - INFO - Log file is ../log/cifar10/log.txt.
+2025-05-20 23:34:15,672 - root - INFO - Data path is ../data.
+2025-05-20 23:34:15,672 - root - INFO - Export path is ../log/cifar10.
+2025-05-20 23:34:15,672 - root - INFO - Dataset: cifar10
+2025-05-20 23:34:15,672 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-20 23:34:15,672 - root - INFO - Network: cifar10_LeNet
+2025-05-20 23:34:15,672 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 23:34:15,672 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 23:34:15,715 - root - INFO - Computation device: cuda
+2025-05-20 23:34:15,715 - root - INFO - Number of dataloader workers: 0
+2025-05-20 23:42:17,085 - root - INFO - Log file is ../log/cifar10/log.txt.
+2025-05-20 23:42:17,087 - root - INFO - Data path is ../data.
+2025-05-20 23:42:17,087 - root - INFO - Export path is ../log/cifar10.
+2025-05-20 23:42:17,087 - root - INFO - Dataset: cifar10
+2025-05-20 23:42:17,087 - root - INFO - Normal class: [0]
+2025-05-20 23:42:17,087 - root - INFO - Network: cifar10_LeNet
+2025-05-20 23:42:17,087 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 23:42:17,087 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 23:42:17,117 - root - INFO - Computation device: cuda
+2025-05-20 23:42:17,117 - root - INFO - Number of dataloader workers: 0
+2025-05-20 23:42:19,951 - root - INFO - Log file is ../log/cifar10/log.txt.
+2025-05-20 23:42:19,954 - root - INFO - Data path is ../data.
+2025-05-20 23:42:19,954 - root - INFO - Export path is ../log/cifar10.
+2025-05-20 23:42:19,954 - root - INFO - Dataset: cifar10
+2025-05-20 23:42:19,954 - root - INFO - Normal class: [0]
+2025-05-20 23:42:19,954 - root - INFO - Network: cifar10_LeNet
+2025-05-20 23:42:19,954 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 23:42:19,954 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 23:42:19,981 - root - INFO - Computation device: cuda
+2025-05-20 23:42:19,981 - root - INFO - Number of dataloader workers: 0
+2025-05-20 23:42:25,252 - root - INFO - Log file is ../log/cifar10/log.txt.
+2025-05-20 23:42:25,252 - root - INFO - Log file is ../log/cifar10/log.txt.
+2025-05-20 23:42:25,255 - root - INFO - Data path is ../data.
+2025-05-20 23:42:25,256 - root - INFO - Data path is ../data.
+2025-05-20 23:42:25,258 - root - INFO - Export path is ../log/cifar10.
+2025-05-20 23:42:25,260 - root - INFO - Export path is ../log/cifar10.
+2025-05-20 23:42:25,262 - root - INFO - Dataset: cifar10
+2025-05-20 23:42:25,264 - root - INFO - Dataset: cifar10
+2025-05-20 23:42:25,265 - root - INFO - Normal class: [0]
+2025-05-20 23:42:25,267 - root - INFO - Normal class: [0]
+2025-05-20 23:42:25,269 - root - INFO - Network: cifar10_LeNet
+2025-05-20 23:42:25,271 - root - INFO - Network: cifar10_LeNet
+2025-05-20 23:42:25,273 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 23:42:25,275 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 23:42:25,276 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 23:42:25,278 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 23:42:25,352 - root - INFO - Computation device: cuda
+2025-05-20 23:42:25,359 - root - INFO - Number of dataloader workers: 0
+2025-05-20 23:42:25,405 - root - INFO - Computation device: cuda
+2025-05-20 23:42:25,408 - root - INFO - Number of dataloader workers: 0
+2025-05-20 23:43:08,816 - root - INFO - Log file is ../log/cifar10/log.txt.
+2025-05-20 23:43:08,817 - root - INFO - Data path is ../data.
+2025-05-20 23:43:08,817 - root - INFO - Export path is ../log/cifar10.
+2025-05-20 23:43:08,817 - root - INFO - Dataset: cifar10
+2025-05-20 23:43:08,817 - root - INFO - Normal class: [0]
+2025-05-20 23:43:08,817 - root - INFO - Network: cifar10_LeNet
+2025-05-20 23:43:08,817 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 23:43:08,817 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 23:43:08,847 - root - INFO - Computation device: cuda
+2025-05-20 23:43:08,847 - root - INFO - Number of dataloader workers: 0
+2025-05-20 23:45:20,462 - root - INFO - Log file is ../log/cifar10/log.txt.
+2025-05-20 23:45:20,465 - root - INFO - Data path is ../data.
+2025-05-20 23:45:20,465 - root - INFO - Export path is ../log/cifar10.
+2025-05-20 23:45:20,465 - root - INFO - Dataset: cifar10
+2025-05-20 23:45:20,465 - root - INFO - Normal class: [0]
+2025-05-20 23:45:20,465 - root - INFO - Network: cifar10_LeNet
+2025-05-20 23:45:20,465 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 23:45:20,465 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 23:45:20,497 - root - INFO - Computation device: cuda
+2025-05-20 23:45:20,497 - root - INFO - Number of dataloader workers: 0
+2025-05-20 23:48:48,443 - root - INFO - Log file is ../log/cifar10/log.txt.
+2025-05-20 23:48:48,445 - root - INFO - Data path is ../data.
+2025-05-20 23:48:48,445 - root - INFO - Export path is ../log/cifar10.
+2025-05-20 23:48:48,445 - root - INFO - Dataset: cifar10
+2025-05-20 23:48:48,445 - root - INFO - Normal class: [0]
+2025-05-20 23:48:48,445 - root - INFO - Network: cifar10_LeNet
+2025-05-20 23:48:48,445 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 23:48:48,445 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 23:48:48,476 - root - INFO - Computation device: cuda
+2025-05-20 23:48:48,476 - root - INFO - Number of dataloader workers: 0
+2025-05-20 23:50:53,707 - root - INFO - Log file is ../log/cifar10/log.txt.
+2025-05-20 23:50:53,709 - root - INFO - Data path is ../data.
+2025-05-20 23:50:53,709 - root - INFO - Export path is ../log/cifar10.
+2025-05-20 23:50:53,709 - root - INFO - Dataset: cifar10
+2025-05-20 23:50:53,709 - root - INFO - Normal class: [0]
+2025-05-20 23:50:53,709 - root - INFO - Network: cifar10_LeNet
+2025-05-20 23:50:53,709 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 23:50:53,709 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 23:50:53,752 - root - INFO - Computation device: cuda
+2025-05-20 23:50:53,752 - root - INFO - Number of dataloader workers: 0
+2025-05-20 23:55:27,605 - root - INFO - Log file is ../log/cifar10/log.txt.
+2025-05-20 23:55:27,607 - root - INFO - Data path is ../data.
+2025-05-20 23:55:27,607 - root - INFO - Export path is ../log/cifar10.
+2025-05-20 23:55:27,607 - root - INFO - Dataset: cifar10
+2025-05-20 23:55:27,607 - root - INFO - Normal class: [0]
+2025-05-20 23:55:27,607 - root - INFO - Network: cifar10_LeNet
+2025-05-20 23:55:27,607 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 23:55:27,607 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 23:55:27,649 - root - INFO - Computation device: cuda
+2025-05-20 23:55:27,649 - root - INFO - Number of dataloader workers: 0
+2025-05-20 23:57:23,821 - root - INFO - Log file is ../log/cifar10/log.txt.
+2025-05-20 23:57:23,821 - root - INFO - Data path is ../data.
+2025-05-20 23:57:23,821 - root - INFO - Export path is ../log/cifar10.
+2025-05-20 23:57:23,821 - root - INFO - Dataset: cifar10
+2025-05-20 23:57:23,821 - root - INFO - Normal class: [0]
+2025-05-20 23:57:23,821 - root - INFO - Network: cifar10_LeNet
+2025-05-20 23:57:23,821 - root - INFO - Deep SVDD objective: one-class
+2025-05-20 23:57:23,821 - root - INFO - Nu-paramerter: 0.10
+2025-05-20 23:57:23,864 - root - INFO - Computation device: cuda
+2025-05-20 23:57:23,864 - root - INFO - Number of dataloader workers: 0
+2025-05-20 23:57:25,834 - root - INFO - Pretraining: True
+2025-05-20 23:57:25,835 - root - INFO - Pretraining optimizer: adam
+2025-05-20 23:57:25,835 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-20 23:57:25,835 - root - INFO - Pretraining epochs: 350
+2025-05-20 23:57:25,835 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-20 23:57:25,835 - root - INFO - Pretraining batch size: 200
+2025-05-20 23:57:25,835 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-20 23:57:30,636 - root - INFO - Starting pretraining...
+2025-05-20 23:57:33,374 - root - INFO -   Epoch 1/350	 Time: 2.734	 Loss: 137.33473236
+2025-05-20 23:57:35,345 - root - INFO -   Epoch 2/350	 Time: 1.969	 Loss: 26.13024704
+2025-05-20 23:57:37,314 - root - INFO -   Epoch 3/350	 Time: 1.969	 Loss: 10.80292049
+2025-05-20 23:57:39,282 - root - INFO -   Epoch 4/350	 Time: 1.965	 Loss: 7.07310076
+2025-05-20 23:57:41,246 - root - INFO -   Epoch 5/350	 Time: 1.964	 Loss: 5.54531494
+2025-05-20 23:57:43,214 - root - INFO -   Epoch 6/350	 Time: 1.964	 Loss: 4.72425367
+2025-05-20 23:57:45,177 - root - INFO -   Epoch 7/350	 Time: 1.962	 Loss: 4.21421776
+2025-05-20 23:57:47,149 - root - INFO -   Epoch 8/350	 Time: 1.972	 Loss: 3.87915533
+2025-05-20 23:57:49,138 - root - INFO -   Epoch 9/350	 Time: 1.989	 Loss: 3.54686740
+2025-05-20 23:57:51,116 - root - INFO -   Epoch 10/350	 Time: 1.978	 Loss: 3.30381204
+2025-05-20 23:57:53,094 - root - INFO -   Epoch 11/350	 Time: 1.977	 Loss: 3.19547548
+2025-05-20 23:57:55,062 - root - INFO -   Epoch 12/350	 Time: 1.968	 Loss: 3.02301387
+2025-05-20 23:57:57,033 - root - INFO -   Epoch 13/350	 Time: 1.971	 Loss: 2.86721995
+2025-05-20 23:57:59,011 - root - INFO -   Epoch 14/350	 Time: 1.978	 Loss: 2.78903410
+2025-05-20 23:58:01,005 - root - INFO -   Epoch 15/350	 Time: 1.993	 Loss: 2.66097631
+2025-05-20 23:58:02,974 - root - INFO -   Epoch 16/350	 Time: 1.968	 Loss: 2.54971653
+2025-05-20 23:58:04,941 - root - INFO -   Epoch 17/350	 Time: 1.967	 Loss: 2.48189880
