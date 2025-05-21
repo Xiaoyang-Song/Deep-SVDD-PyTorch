@@ -213,3 +213,186 @@
 2025-05-21 14:20:35,692 - root - INFO - Test set AUC: 20.32%
 2025-05-21 14:20:35,693 - root - INFO - Testing TPR95: 0.0078
 2025-05-21 14:20:35,693 - root - INFO - Finished testing.
+2025-05-21 14:25:58,654 - root - INFO - Log file is ../log/cifar10-svhn/log.txt.
+2025-05-21 14:25:58,669 - root - INFO - Data path is ../data.
+2025-05-21 14:25:58,669 - root - INFO - Export path is ../log/cifar10-svhn.
+2025-05-21 14:25:58,669 - root - INFO - Dataset: cifar10-svhn
+2025-05-21 14:25:58,669 - root - INFO - Normal class: [0]
+2025-05-21 14:25:58,669 - root - INFO - Conducting cross-dataset experiment...
+2025-05-21 14:25:58,669 - root - INFO - Network: cifar10_LeNet
+2025-05-21 14:25:58,670 - root - INFO - Deep SVDD objective: one-class
+2025-05-21 14:25:58,670 - root - INFO - Nu-paramerter: 0.10
+2025-05-21 14:25:58,719 - root - INFO - Computation device: cuda
+2025-05-21 14:25:58,719 - root - INFO - Number of dataloader workers: 0
+2025-05-21 14:26:02,658 - root - INFO - Pretraining: True
+2025-05-21 14:26:02,658 - root - INFO - Pretraining optimizer: adam
+2025-05-21 14:26:02,658 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-21 14:26:02,658 - root - INFO - Pretraining epochs: 350
+2025-05-21 14:26:02,658 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-21 14:26:02,659 - root - INFO - Pretraining batch size: 200
+2025-05-21 14:26:02,659 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-21 14:26:07,079 - root - INFO - Starting pretraining...
+2025-05-21 14:26:15,830 - root - INFO -   Epoch 1/350	 Time: 8.748	 Loss: 96.83685008
+2025-05-21 14:26:23,668 - root - INFO -   Epoch 2/350	 Time: 7.838	 Loss: 59.32203792
+2025-05-21 14:26:31,512 - root - INFO -   Epoch 3/350	 Time: 7.844	 Loss: 52.33569754
+2025-05-21 14:26:39,424 - root - INFO -   Epoch 4/350	 Time: 7.912	 Loss: 48.35789252
+2025-05-21 14:26:47,325 - root - INFO -   Epoch 5/350	 Time: 7.845	 Loss: 45.70742850
+2025-05-21 14:26:55,149 - root - INFO -   Epoch 6/350	 Time: 7.824	 Loss: 43.78856613
+2025-05-21 14:27:02,956 - root - INFO -   Epoch 7/350	 Time: 7.806	 Loss: 42.32363713
+2025-05-21 14:27:10,776 - root - INFO -   Epoch 8/350	 Time: 7.817	 Loss: 40.97405295
+2025-05-21 14:27:18,693 - root - INFO -   Epoch 9/350	 Time: 7.916	 Loss: 39.95204547
+2025-05-21 14:27:26,506 - root - INFO -   Epoch 10/350	 Time: 7.811	 Loss: 39.08829881
+2025-05-21 14:27:34,408 - root - INFO -   Epoch 11/350	 Time: 7.902	 Loss: 38.36997311
+2025-05-21 14:27:42,408 - root - INFO -   Epoch 12/350	 Time: 7.999	 Loss: 37.55221318
+2025-05-21 14:27:50,419 - root - INFO -   Epoch 13/350	 Time: 8.011	 Loss: 37.06176793
+2025-05-21 14:27:58,491 - root - INFO -   Epoch 14/350	 Time: 8.070	 Loss: 36.30428200
+2025-05-21 14:28:06,518 - root - INFO -   Epoch 15/350	 Time: 8.026	 Loss: 35.72654097
+2025-05-21 14:28:14,537 - root - INFO -   Epoch 16/350	 Time: 8.019	 Loss: 35.24120932
+2025-05-21 14:28:22,554 - root - INFO -   Epoch 17/350	 Time: 8.016	 Loss: 34.81874029
+2025-05-21 14:28:30,567 - root - INFO -   Epoch 18/350	 Time: 8.012	 Loss: 34.23821123
+2025-05-21 14:28:38,577 - root - INFO -   Epoch 19/350	 Time: 8.010	 Loss: 33.87737885
+2025-05-21 14:28:46,620 - root - INFO -   Epoch 20/350	 Time: 8.042	 Loss: 33.36788406
+2025-05-21 14:28:54,699 - root - INFO -   Epoch 21/350	 Time: 8.078	 Loss: 33.04881575
+2025-05-21 14:29:02,716 - root - INFO -   Epoch 22/350	 Time: 8.017	 Loss: 32.67409518
+2025-05-21 14:29:10,733 - root - INFO -   Epoch 23/350	 Time: 8.016	 Loss: 32.31314285
+2025-05-21 14:29:18,752 - root - INFO -   Epoch 24/350	 Time: 8.017	 Loss: 31.86205867
+2025-05-21 14:29:26,789 - root - INFO -   Epoch 25/350	 Time: 8.035	 Loss: 31.58355563
+2025-05-21 14:29:34,813 - root - INFO -   Epoch 26/350	 Time: 8.024	 Loss: 31.37908661
+2025-05-21 14:29:42,850 - root - INFO -   Epoch 27/350	 Time: 8.035	 Loss: 31.09107422
+2025-05-21 14:29:50,960 - root - INFO -   Epoch 28/350	 Time: 8.109	 Loss: 30.80729913
+2025-05-21 14:29:59,026 - root - INFO -   Epoch 29/350	 Time: 8.066	 Loss: 30.44136599
+2025-05-21 14:30:07,074 - root - INFO -   Epoch 30/350	 Time: 8.047	 Loss: 30.30914007
+2025-05-21 14:30:15,117 - root - INFO -   Epoch 31/350	 Time: 8.042	 Loss: 29.98075359
+2025-05-21 14:30:23,168 - root - INFO -   Epoch 32/350	 Time: 8.051	 Loss: 29.81727017
+2025-05-21 14:30:31,207 - root - INFO -   Epoch 33/350	 Time: 8.040	 Loss: 29.68092580
+2025-05-21 14:30:39,238 - root - INFO -   Epoch 34/350	 Time: 8.029	 Loss: 29.40805839
+2025-05-21 14:30:47,283 - root - INFO -   Epoch 35/350	 Time: 8.044	 Loss: 29.31230367
+2025-05-21 14:30:55,404 - root - INFO -   Epoch 36/350	 Time: 8.120	 Loss: 29.13842878
+2025-05-21 14:31:03,452 - root - INFO -   Epoch 37/350	 Time: 8.047	 Loss: 28.89880060
+2025-05-21 14:31:11,496 - root - INFO -   Epoch 38/350	 Time: 8.043	 Loss: 28.81950394
+2025-05-21 14:31:19,539 - root - INFO -   Epoch 39/350	 Time: 8.042	 Loss: 28.54431577
+2025-05-21 14:31:27,584 - root - INFO -   Epoch 40/350	 Time: 8.045	 Loss: 28.49849683
+2025-05-21 14:31:35,614 - root - INFO -   Epoch 41/350	 Time: 8.028	 Loss: 28.23207655
+2025-05-21 14:31:43,642 - root - INFO -   Epoch 42/350	 Time: 8.027	 Loss: 28.05158412
+2025-05-21 14:31:51,689 - root - INFO -   Epoch 43/350	 Time: 8.046	 Loss: 27.88635935
+2025-05-21 14:31:59,808 - root - INFO -   Epoch 44/350	 Time: 8.117	 Loss: 27.81191017
+2025-05-21 14:32:07,842 - root - INFO -   Epoch 45/350	 Time: 8.034	 Loss: 27.68812666
+2025-05-21 14:32:15,880 - root - INFO -   Epoch 46/350	 Time: 8.037	 Loss: 27.47999013
+2025-05-21 14:32:23,924 - root - INFO -   Epoch 47/350	 Time: 8.040	 Loss: 27.34393980
+2025-05-21 14:32:31,964 - root - INFO -   Epoch 48/350	 Time: 8.039	 Loss: 27.14704717
+2025-05-21 14:32:40,007 - root - INFO -   Epoch 49/350	 Time: 8.042	 Loss: 26.95397544
+2025-05-21 14:32:48,042 - root - INFO -   Epoch 50/350	 Time: 8.033	 Loss: 26.84903906
+2025-05-21 14:32:56,125 - root - INFO -   Epoch 51/350	 Time: 8.083	 Loss: 26.82305424
+2025-05-21 14:33:04,213 - root - INFO -   Epoch 52/350	 Time: 8.087	 Loss: 26.64184231
+2025-05-21 14:33:12,249 - root - INFO -   Epoch 53/350	 Time: 8.036	 Loss: 26.54186367
+2025-05-21 14:33:20,286 - root - INFO -   Epoch 54/350	 Time: 8.037	 Loss: 26.33304008
+2025-05-21 14:33:28,335 - root - INFO -   Epoch 55/350	 Time: 8.049	 Loss: 26.17765958
+2025-05-21 14:33:36,385 - root - INFO -   Epoch 56/350	 Time: 8.049	 Loss: 26.04212846
+2025-05-21 14:33:44,437 - root - INFO -   Epoch 57/350	 Time: 8.052	 Loss: 25.96369051
+2025-05-21 14:33:52,508 - root - INFO -   Epoch 58/350	 Time: 8.070	 Loss: 25.82937939
+2025-05-21 14:34:00,620 - root - INFO -   Epoch 59/350	 Time: 8.112	 Loss: 25.77621441
+2025-05-21 14:34:08,708 - root - INFO -   Epoch 60/350	 Time: 8.088	 Loss: 25.67833508
+2025-05-21 14:34:16,773 - root - INFO -   Epoch 61/350	 Time: 8.065	 Loss: 25.62026644
+2025-05-21 14:34:24,838 - root - INFO -   Epoch 62/350	 Time: 8.064	 Loss: 25.51226925
+2025-05-21 14:34:32,899 - root - INFO -   Epoch 63/350	 Time: 8.061	 Loss: 25.22768392
+2025-05-21 14:34:40,969 - root - INFO -   Epoch 64/350	 Time: 8.070	 Loss: 25.26314391
+2025-05-21 14:34:49,046 - root - INFO -   Epoch 65/350	 Time: 8.076	 Loss: 25.13957500
+2025-05-21 14:34:57,115 - root - INFO -   Epoch 66/350	 Time: 8.068	 Loss: 24.96795267
+2025-05-21 14:35:05,261 - root - INFO -   Epoch 67/350	 Time: 8.145	 Loss: 24.90511077
+2025-05-21 14:35:13,342 - root - INFO -   Epoch 68/350	 Time: 8.080	 Loss: 24.83392841
+2025-05-21 14:35:21,420 - root - INFO -   Epoch 69/350	 Time: 8.077	 Loss: 24.76859337
+2025-05-21 14:35:29,497 - root - INFO -   Epoch 70/350	 Time: 8.076	 Loss: 24.54681459
+2025-05-21 14:35:37,573 - root - INFO -   Epoch 71/350	 Time: 8.075	 Loss: 24.36376600
+2025-05-21 14:35:45,645 - root - INFO -   Epoch 72/350	 Time: 8.070	 Loss: 24.33973072
+2025-05-21 14:35:53,704 - root - INFO -   Epoch 73/350	 Time: 8.058	 Loss: 24.31501794
+2025-05-21 14:36:01,768 - root - INFO -   Epoch 74/350	 Time: 8.064	 Loss: 24.26914745
+2025-05-21 14:36:09,910 - root - INFO -   Epoch 75/350	 Time: 8.141	 Loss: 24.17815175
+2025-05-21 14:36:17,965 - root - INFO -   Epoch 76/350	 Time: 8.054	 Loss: 24.05136856
+2025-05-21 14:36:26,021 - root - INFO -   Epoch 77/350	 Time: 8.055	 Loss: 23.91925880
+2025-05-21 14:36:34,079 - root - INFO -   Epoch 78/350	 Time: 8.057	 Loss: 23.94149812
+2025-05-21 14:36:42,151 - root - INFO -   Epoch 79/350	 Time: 8.071	 Loss: 23.76069769
+2025-05-21 14:36:50,223 - root - INFO -   Epoch 80/350	 Time: 8.071	 Loss: 23.71525579
+2025-05-21 14:36:58,294 - root - INFO -   Epoch 81/350	 Time: 8.070	 Loss: 23.71075156
+2025-05-21 14:37:06,390 - root - INFO -   Epoch 82/350	 Time: 8.096	 Loss: 23.55398957
+2025-05-21 14:37:14,511 - root - INFO -   Epoch 83/350	 Time: 8.119	 Loss: 23.38423708
+2025-05-21 14:37:22,593 - root - INFO -   Epoch 84/350	 Time: 8.081	 Loss: 23.31883121
+2025-05-21 14:37:30,664 - root - INFO -   Epoch 85/350	 Time: 8.070	 Loss: 23.24166319
+2025-05-21 14:37:38,740 - root - INFO -   Epoch 86/350	 Time: 8.075	 Loss: 23.28582000
+2025-05-21 14:37:46,809 - root - INFO -   Epoch 87/350	 Time: 8.070	 Loss: 23.20965358
+2025-05-21 14:37:54,879 - root - INFO -   Epoch 88/350	 Time: 8.068	 Loss: 23.16176566
+2025-05-21 14:38:02,948 - root - INFO -   Epoch 89/350	 Time: 8.070	 Loss: 23.14186494
+2025-05-21 14:38:11,080 - root - INFO -   Epoch 90/350	 Time: 8.132	 Loss: 23.01025246
+2025-05-21 14:38:19,172 - root - INFO -   Epoch 91/350	 Time: 8.091	 Loss: 22.83979126
+2025-05-21 14:38:27,240 - root - INFO -   Epoch 92/350	 Time: 8.068	 Loss: 22.71108443
+2025-05-21 14:38:35,304 - root - INFO -   Epoch 93/350	 Time: 8.063	 Loss: 22.57880550
+2025-05-21 14:38:43,363 - root - INFO -   Epoch 94/350	 Time: 8.058	 Loss: 22.68845461
+2025-05-21 14:38:51,444 - root - INFO -   Epoch 95/350	 Time: 8.080	 Loss: 22.66815782
+2025-05-21 14:38:59,524 - root - INFO -   Epoch 96/350	 Time: 8.080	 Loss: 22.59148672
+2025-05-21 14:39:07,606 - root - INFO -   Epoch 97/350	 Time: 8.081	 Loss: 22.56568968
+2025-05-21 14:39:15,772 - root - INFO -   Epoch 98/350	 Time: 8.165	 Loss: 22.47555816
+2025-05-21 14:39:23,863 - root - INFO -   Epoch 99/350	 Time: 8.090	 Loss: 22.42839409
+2025-05-21 14:39:31,941 - root - INFO -   Epoch 100/350	 Time: 8.077	 Loss: 22.30054633
+2025-05-21 14:39:40,013 - root - INFO -   Epoch 101/350	 Time: 8.071	 Loss: 22.31529510
+2025-05-21 14:39:48,091 - root - INFO -   Epoch 102/350	 Time: 8.077	 Loss: 22.16851834
+2025-05-21 14:39:56,181 - root - INFO -   Epoch 103/350	 Time: 8.088	 Loss: 22.19182224
+2025-05-21 14:40:04,272 - root - INFO -   Epoch 104/350	 Time: 8.090	 Loss: 22.20196039
+2025-05-21 14:40:12,378 - root - INFO -   Epoch 105/350	 Time: 8.106	 Loss: 21.96203968
+2025-05-21 14:40:20,552 - root - INFO -   Epoch 106/350	 Time: 8.173	 Loss: 21.92722730
+2025-05-21 14:40:28,644 - root - INFO -   Epoch 107/350	 Time: 8.090	 Loss: 21.89630429
+2025-05-21 14:40:36,731 - root - INFO -   Epoch 108/350	 Time: 8.086	 Loss: 21.85964581
+2025-05-21 14:40:44,826 - root - INFO -   Epoch 109/350	 Time: 8.095	 Loss: 22.01202003
+2025-05-21 14:40:52,910 - root - INFO -   Epoch 110/350	 Time: 8.082	 Loss: 22.04045966
+2025-05-21 14:41:00,995 - root - INFO -   Epoch 111/350	 Time: 8.085	 Loss: 21.81460840
+2025-05-21 14:41:09,084 - root - INFO -   Epoch 112/350	 Time: 8.088	 Loss: 21.66548745
+2025-05-21 14:41:17,221 - root - INFO -   Epoch 113/350	 Time: 8.136	 Loss: 21.66186025
+2025-05-21 14:41:25,355 - root - INFO -   Epoch 114/350	 Time: 8.134	 Loss: 21.56690359
+2025-05-21 14:41:33,435 - root - INFO -   Epoch 115/350	 Time: 8.079	 Loss: 21.66925095
+2025-05-21 14:41:41,505 - root - INFO -   Epoch 116/350	 Time: 8.069	 Loss: 21.55958325
+2025-05-21 14:41:49,578 - root - INFO -   Epoch 117/350	 Time: 8.071	 Loss: 21.67475493
+2025-05-21 14:41:57,652 - root - INFO -   Epoch 118/350	 Time: 8.073	 Loss: 21.34707790
+2025-05-21 14:42:05,728 - root - INFO -   Epoch 119/350	 Time: 8.075	 Loss: 21.44473714
+2025-05-21 14:42:13,813 - root - INFO -   Epoch 120/350	 Time: 8.084	 Loss: 21.38330951
+2025-05-21 14:42:21,970 - root - INFO -   Epoch 121/350	 Time: 8.156	 Loss: 21.33656493
+2025-05-21 14:42:30,073 - root - INFO -   Epoch 122/350	 Time: 8.102	 Loss: 21.26066264
+2025-05-21 14:42:38,160 - root - INFO -   Epoch 123/350	 Time: 8.087	 Loss: 21.36594563
+2025-05-21 14:42:46,245 - root - INFO -   Epoch 124/350	 Time: 8.086	 Loss: 21.22487721
+2025-05-21 14:42:54,331 - root - INFO -   Epoch 125/350	 Time: 8.085	 Loss: 21.28837356
+2025-05-21 14:43:02,416 - root - INFO -   Epoch 126/350	 Time: 8.085	 Loss: 21.22037368
+2025-05-21 14:43:10,507 - root - INFO -   Epoch 127/350	 Time: 8.091	 Loss: 21.10914761
+2025-05-21 14:43:18,619 - root - INFO -   Epoch 128/350	 Time: 8.111	 Loss: 21.18208180
+2025-05-21 14:43:26,797 - root - INFO -   Epoch 129/350	 Time: 8.178	 Loss: 21.08488898
+2025-05-21 14:43:34,887 - root - INFO -   Epoch 130/350	 Time: 8.090	 Loss: 21.03563493
+2025-05-21 14:43:42,969 - root - INFO -   Epoch 131/350	 Time: 8.082	 Loss: 21.02994521
+2025-05-21 14:43:51,056 - root - INFO -   Epoch 132/350	 Time: 8.085	 Loss: 20.89556419
+2025-05-21 14:43:59,140 - root - INFO -   Epoch 133/350	 Time: 8.085	 Loss: 20.96858607
+2025-05-21 14:44:07,219 - root - INFO -   Epoch 134/350	 Time: 8.078	 Loss: 20.92987828
+2025-05-21 14:44:15,319 - root - INFO -   Epoch 135/350	 Time: 8.100	 Loss: 20.90279522
+2025-05-21 14:44:23,449 - root - INFO -   Epoch 136/350	 Time: 8.130	 Loss: 20.88149330
+2025-05-21 14:44:31,600 - root - INFO -   Epoch 137/350	 Time: 8.151	 Loss: 20.81392697
+2025-05-21 14:44:39,692 - root - INFO -   Epoch 138/350	 Time: 8.092	 Loss: 20.73129135
+2025-05-21 14:44:47,787 - root - INFO -   Epoch 139/350	 Time: 8.095	 Loss: 20.68188170
+2025-05-21 14:44:55,871 - root - INFO -   Epoch 140/350	 Time: 8.083	 Loss: 20.79718380
+2025-05-21 14:45:03,953 - root - INFO -   Epoch 141/350	 Time: 8.082	 Loss: 20.63860206
+2025-05-21 14:45:12,036 - root - INFO -   Epoch 142/350	 Time: 8.083	 Loss: 20.69097044
+2025-05-21 14:45:20,136 - root - INFO -   Epoch 143/350	 Time: 8.100	 Loss: 20.70842059
+2025-05-21 14:45:28,267 - root - INFO -   Epoch 144/350	 Time: 8.131	 Loss: 20.68766558
+2025-05-21 14:45:36,389 - root - INFO -   Epoch 145/350	 Time: 8.123	 Loss: 20.49559185
+2025-05-21 14:45:44,472 - root - INFO -   Epoch 146/350	 Time: 8.083	 Loss: 20.65976604
+2025-05-21 14:45:52,551 - root - INFO -   Epoch 147/350	 Time: 8.078	 Loss: 20.56722188
+2025-05-21 14:46:00,643 - root - INFO -   Epoch 148/350	 Time: 8.092	 Loss: 20.54412212
+2025-05-21 14:46:08,740 - root - INFO -   Epoch 149/350	 Time: 8.097	 Loss: 20.48431818
+2025-05-21 14:46:16,836 - root - INFO -   Epoch 150/350	 Time: 8.096	 Loss: 20.53912065
+2025-05-21 14:46:24,945 - root - INFO -   Epoch 151/350	 Time: 8.109	 Loss: 20.33299574
+2025-05-21 14:46:33,122 - root - INFO -   Epoch 152/350	 Time: 8.177	 Loss: 20.52278976
+2025-05-21 14:46:41,232 - root - INFO -   Epoch 153/350	 Time: 8.110	 Loss: 20.43875633
+2025-05-21 14:46:49,340 - root - INFO -   Epoch 154/350	 Time: 8.108	 Loss: 20.46969855
+2025-05-21 14:46:57,444 - root - INFO -   Epoch 155/350	 Time: 8.103	 Loss: 20.34579333
+2025-05-21 14:47:05,527 - root - INFO -   Epoch 156/350	 Time: 8.083	 Loss: 20.23355894
+2025-05-21 14:47:13,612 - root - INFO -   Epoch 157/350	 Time: 8.084	 Loss: 20.20282623
+2025-05-21 14:47:21,706 - root - INFO -   Epoch 158/350	 Time: 8.093	 Loss: 20.33119647
+2025-05-21 14:47:29,805 - root - INFO -   Epoch 159/350	 Time: 8.097	 Loss: 20.29440211
+2025-05-21 14:47:37,982 - root - INFO -   Epoch 160/350	 Time: 8.176	 Loss: 20.26572870
+2025-05-21 14:47:46,073 - root - INFO -   Epoch 161/350	 Time: 8.090	 Loss: 20.20298716
+2025-05-21 14:47:54,178 - root - INFO -   Epoch 162/350	 Time: 8.105	 Loss: 20.31097525
+2025-05-21 14:48:02,270 - root - INFO -   Epoch 163/350	 Time: 8.091	 Loss: 20.30420594
+2025-05-21 14:48:10,364 - root - INFO -   Epoch 164/350	 Time: 8.094	 Loss: 20.26636163

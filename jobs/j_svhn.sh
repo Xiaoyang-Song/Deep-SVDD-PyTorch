@@ -9,7 +9,7 @@
 #SBATCH --gpus=1
 #SBATCH --mem-per-gpu=16GB
 #SBATCH --time=4:00:00
-#SBATCH --output=/scratch/sunwbgt_root/sunwbgt98/xysong/Deep-SVDD-PyTorch/out-svhn.log
+#SBATCH --output=/scratch/sunwbgt_root/sunwbgt98/xysong/Deep-SVDD-PyTorch/out/out-svhn.log
 
 
 mkdir log/svhn
