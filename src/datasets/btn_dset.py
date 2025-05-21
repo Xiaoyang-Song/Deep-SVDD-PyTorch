@@ -2,56 +2,62 @@ from torch.utils.data import Subset
 from PIL import Image
 from torchvision.datasets import CIFAR10, SVHN, MNIST, FashionMNIST
 from base.torchvision_dataset import TorchvisionDataset
+from torchvision.datasets.vision import VisionDataset
 from .preprocessing import get_target_label_idx, global_contrast_normalization
-
+import numpy as np
 import torchvision.transforms as transforms
 
 
 class BTNDataset(TorchvisionDataset):
 
-    def __init__(self, root: str, normal_class=5):
+    def __init__(self, root: str, ind: str, ood: str):
         super().__init__(root)
 
         self.n_classes = 2  # 0: normal, 1: outlier
-        self.normal_classes = tuple([normal_class])
-        self.outlier_classes = list(range(0, 10))
-        self.outlier_classes.remove(normal_class)
 
-        # Pre-computed min and max values (after applying GCN) from train data per class
-        min_max = [(-28.94083453598571, 13.802961825439636),
-                   (-6.681770233365245, 9.158067708230273),
-                   (-34.924463588638204, 14.419298165027628),
-                   (-10.599172931391799, 11.093187820377565),
-                   (-11.945022995801637, 10.628045447867583),
-                   (-9.691969487694928, 8.948326776180823),
-                   (-9.174940012342555, 13.847014686472365),
-                   (-6.876682005899029, 12.282371383343161),
-                   (-15.603507135507172, 15.2464923804279),
-                   (-6.132882973622672, 8.046098172351265)]
+        transform = transforms.Compose([transforms.ToTensor()])
+        target_transform = None
+        
+        # InD
+        assert ind in ['mnist', 'fashionmnist', 'cifar10'], f"Unknown dataset: {ind}"
+        if ind == 'cifar10':
+            ind_train = CIFAR10(root=self.root, train=True, download=True, transform=transform, target_transform=target_transform)
+            ind_test = CIFAR10(root=self.root, train=False, download=True, transform=transform, target_transform=target_transform)
+            print(f"InD Train set shape: {ind_train.data.shape}, InD Test set shape: {ind_test.data.shape}")
 
-        # CIFAR-10 preprocessing: GCN (with L1 norm) and min-max feature scaling to [0,1]
-        transform = transforms.Compose([transforms.ToTensor(),
-                                        transforms.Lambda(lambda x: global_contrast_normalization(x, scale='l1')),
-                                        transforms.Normalize([min_max[normal_class][0]] * 3,
-                                                             [min_max[normal_class][1] - min_max[normal_class][0]] * 3)])
+        # OOD
+        assert ood in ['mnist', 'fashionmnist', 'svhn'], f"Unknown dataset: {ood}"
+        if ood == 'svhn':
+            ood_test = SVHN(root=self.root, split='test', download=True, transform=transform, target_transform=target_transform)
+            ood_test.data = ood_test.data.transpose((0, 2, 3, 1))  # SVHN data is in (N, C, H, W) format
+            print(f"OoD Test set shape: {ood_test.data.shape}")
 
-        target_transform = transforms.Lambda(lambda x: int(x in self.outlier_classes))
+        # Train set creation
+        train_set = ind_train.data
+        train_labels = np.zeros(len(ind_train))
+        self.train_set = MyBTNDataset(root=root, transform=transform, target_transform=target_transform)
+        self.train_set.data = train_set
+        self.train_set.labels = train_labels
 
-        train_set = MyCIFAR10(root=self.root, train=True, download=True,
-                              transform=transform, target_transform=target_transform)
-        # Subset train set to normal class
-        train_idx_normal = get_target_label_idx(train_set.train_labels, self.normal_classes)
-        self.train_set = Subset(train_set, train_idx_normal)
+        # Test set creation
+        test_set = np.concatenate((ind_test.data, ood_test.data), axis=0)
+        label_ind = np.zeros(len(ind_test))
+        label_ood = np.ones(len(ood_test))
+        print(f"Test Set Size: {len(test_set)}, InD: {len(ind_test)}, OOD: {len(ood_test)}")
+        test_labels = np.concatenate((label_ind, label_ood))
+        self.test_set = MyBTNDataset(root=root, transform=transform, target_transform=target_transform)
+        self.test_set.data = test_set
+        self.test_set.labels = test_labels
 
-        self.test_set = MyCIFAR10(root=self.root, train=False, download=True,
-                                  transform=transform, target_transform=target_transform)
 
-
-class MyBTNDataset(TorchvisionDataset):
-    """Torchvision CIFAR10 class with patch of __getitem__ method to also return the index of a data sample."""
+class MyBTNDataset(VisionDataset):
+    """Torchvision dataset class with patch of __getitem__ method to also return the index of a data sample."""
 
     def __init__(self, *args, **kwargs):
         super(MyBTNDataset, self).__init__(*args, **kwargs)
+
+    def __len__(self) -> int:
+        return len(self.data)
 
     def __getitem__(self, index):
         """Override the original method of the CIFAR10 class.
@@ -60,16 +66,12 @@ class MyBTNDataset(TorchvisionDataset):
         Returns:
             triple: (image, target, index) where target is index of the target class.
         """
-        if self.train:
-            img, target = self.train_data[index], self.train_labels[index]
-        else:
-            img, target = self.test_data[index], self.test_labels[index]
+        img, target = self.data[index], self.labels[index]
 
         # doing this so that it is consistent with all other datasets
         # to return a PIL Image
         img = Image.fromarray(img)
         
-
         if self.transform is not None:
             img = self.transform(img)
 

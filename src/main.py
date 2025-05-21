@@ -19,7 +19,7 @@ from datasets.main import load_dataset
 # Settings
 ################################################################################
 @click.command()
-@click.argument('dataset_name', type=click.Choice(['mnist', 'cifar10', 'svhn', 'fashionmnist']))
+@click.argument('dataset_name', type=click.Choice(['mnist', 'cifar10', 'svhn', 'fashionmnist', 'cifar10-svhn']))
 @click.argument('net_name', type=click.Choice(['mnist_LeNet', 'cifar10_LeNet', 'cifar10_LeNet_ELU']))
 @click.argument('xp_path', type=click.Path(exists=True))
 @click.argument('data_path', type=click.Path(exists=True))
@@ -59,10 +59,11 @@ from datasets.main import load_dataset
 # @click.option('--normal_class', type=int, default=0,
 #               help='Specify the normal class of the dataset (all other classes are considered anomalous).')
 @click.option('--normal_class', type=str, default="0")
+@click.option('--experiment_type', type=str, default="within")
 
 def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, objective, nu, device, seed,
          optimizer_name, lr, n_epochs, lr_milestone, batch_size, weight_decay, pretrain, ae_optimizer_name, ae_lr,
-         ae_n_epochs, ae_lr_milestone, ae_batch_size, ae_weight_decay, n_jobs_dataloader, normal_class):
+         ae_n_epochs, ae_lr_milestone, ae_batch_size, ae_weight_decay, n_jobs_dataloader, normal_class, experiment_type):
     """
     Deep SVDD, a fully deep method for anomaly detection.
 
@@ -94,6 +95,8 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, ob
     logger.info('Dataset: %s' % dataset_name)
     normal_class = [int(i) for i in normal_class.split(',')]
     logger.info(f'Normal class: {normal_class}')
+    if experiment_type != "within":
+        logger.info("Conducting cross-dataset experiment...")
     # logger.info('Normal class: %d' % normal_class)
     logger.info('Network: %s' % net_name)
 
@@ -178,7 +181,7 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, ob
     indices, labels, scores = np.array(indices), np.array(labels), np.array(scores)
     idx_sorted = indices[labels == 0][np.argsort(scores[labels == 0])]  # sorted from lowest to highest anomaly score
 
-    if dataset_name in ('mnist', 'cifar10', 'fashionmnist', 'svhn'):
+    if dataset_name in ('mnist', 'cifar10', 'fashionmnist', 'svhn', 'cifar10-svhn'):
 
         if dataset_name == 'mnist':
             X_normals = dataset.test_set.test_data[idx_sorted[:32], ...].unsqueeze(1)
@@ -193,6 +196,10 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, ob
             X_outliers = torch.tensor(np.transpose(dataset.test_set.data[idx_sorted[-32:], ...], (0, 3, 1, 2)))
 
         if dataset_name == 'cifar10':
+            X_normals = torch.tensor(np.transpose(dataset.test_set.data[idx_sorted[:32], ...], (0, 3, 1, 2)))
+            X_outliers = torch.tensor(np.transpose(dataset.test_set.data[idx_sorted[-32:], ...], (0, 3, 1, 2)))
+
+        if dataset_name == 'cifar10-svhn':
             X_normals = torch.tensor(np.transpose(dataset.test_set.data[idx_sorted[:32], ...], (0, 3, 1, 2)))
             X_outliers = torch.tensor(np.transpose(dataset.test_set.data[idx_sorted[-32:], ...], (0, 3, 1, 2)))
 
