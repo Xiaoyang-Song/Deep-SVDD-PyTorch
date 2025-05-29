@@ -1,0 +1,139 @@
+2025-05-28 21:14:27,442 - root - INFO - Log file is ../log/mnist-fashionmnist-32/log.txt.
+2025-05-28 21:14:27,442 - root - INFO - Data path is ../data.
+2025-05-28 21:14:27,442 - root - INFO - Export path is ../log/mnist-fashionmnist-32.
+2025-05-28 21:14:27,443 - root - INFO - Dataset: mnist-fashionmnist-32
+2025-05-28 21:14:27,443 - root - INFO - Normal class: [0]
+2025-05-28 21:14:27,443 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 21:14:27,443 - root - INFO - Network: cifar10_LeNet
+2025-05-28 21:14:27,443 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 21:14:27,443 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 21:14:27,491 - root - INFO - Computation device: cuda
+2025-05-28 21:14:27,491 - root - INFO - Number of dataloader workers: 0
+2025-05-28 21:14:47,005 - root - INFO - Log file is ../log/mnist-fashionmnist-32/log.txt.
+2025-05-28 21:14:47,005 - root - INFO - Data path is ../data.
+2025-05-28 21:14:47,005 - root - INFO - Export path is ../log/mnist-fashionmnist-32.
+2025-05-28 21:14:47,005 - root - INFO - Dataset: mnist-fashionmnist-32
+2025-05-28 21:14:47,005 - root - INFO - Normal class: [0]
+2025-05-28 21:14:47,005 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 21:14:47,005 - root - INFO - Network: cifar10_LeNet
+2025-05-28 21:14:47,005 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 21:14:47,005 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 21:14:47,030 - root - INFO - Computation device: cuda
+2025-05-28 21:14:47,031 - root - INFO - Number of dataloader workers: 0
+2025-05-28 21:14:47,442 - root - INFO - Pretraining: True
+2025-05-28 21:14:47,442 - root - INFO - Pretraining optimizer: adam
+2025-05-28 21:14:47,442 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 21:14:47,442 - root - INFO - Pretraining epochs: 350
+2025-05-28 21:14:47,442 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 21:14:47,442 - root - INFO - Pretraining batch size: 200
+2025-05-28 21:14:47,442 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 21:14:51,825 - root - INFO - Starting pretraining...
+2025-05-28 21:24:33,180 - root - INFO - Log file is ../log/mnist-fashionmnist-32/log.txt.
+2025-05-28 21:24:33,181 - root - INFO - Data path is ../data.
+2025-05-28 21:24:33,181 - root - INFO - Export path is ../log/mnist-fashionmnist-32.
+2025-05-28 21:24:33,181 - root - INFO - Dataset: mnist-fashionmnist-32
+2025-05-28 21:24:33,181 - root - INFO - Normal class: [0]
+2025-05-28 21:24:33,181 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 21:24:33,181 - root - INFO - Network: cifar10_LeNet
+2025-05-28 21:24:33,181 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 21:24:33,181 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 21:24:33,208 - root - INFO - Computation device: cuda
+2025-05-28 21:24:33,209 - root - INFO - Number of dataloader workers: 0
+2025-05-28 21:24:33,466 - root - INFO - Pretraining: True
+2025-05-28 21:24:33,466 - root - INFO - Pretraining optimizer: adam
+2025-05-28 21:24:33,466 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 21:24:33,466 - root - INFO - Pretraining epochs: 350
+2025-05-28 21:24:33,466 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 21:24:33,466 - root - INFO - Pretraining batch size: 200
+2025-05-28 21:24:33,466 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 21:24:36,264 - root - INFO - Starting pretraining...
+2025-05-28 21:34:34,106 - root - INFO - Log file is ../log/mnist-fashionmnist-32/log.txt.
+2025-05-28 21:34:34,107 - root - INFO - Data path is ../data.
+2025-05-28 21:34:34,107 - root - INFO - Export path is ../log/mnist-fashionmnist-32.
+2025-05-28 21:34:34,107 - root - INFO - Dataset: mnist-fashionmnist-32
+2025-05-28 21:34:34,107 - root - INFO - Normal class: [0]
+2025-05-28 21:34:34,107 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 21:34:34,107 - root - INFO - Network: cifar10_LeNet
+2025-05-28 21:34:34,107 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 21:34:34,110 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 21:34:34,136 - root - INFO - Computation device: cuda
+2025-05-28 21:34:34,136 - root - INFO - Number of dataloader workers: 0
+2025-05-28 21:34:34,232 - root - INFO - Pretraining: True
+2025-05-28 21:34:34,232 - root - INFO - Pretraining optimizer: adam
+2025-05-28 21:34:34,232 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 21:34:34,232 - root - INFO - Pretraining epochs: 350
+2025-05-28 21:34:34,232 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 21:34:34,232 - root - INFO - Pretraining batch size: 200
+2025-05-28 21:34:34,232 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 21:34:37,015 - root - INFO - Starting pretraining...
+2025-05-28 21:37:12,549 - root - INFO - Log file is ../log/mnist-fashionmnist-32/log.txt.
+2025-05-28 21:37:12,549 - root - INFO - Data path is ../data.
+2025-05-28 21:37:12,550 - root - INFO - Export path is ../log/mnist-fashionmnist-32.
+2025-05-28 21:37:12,550 - root - INFO - Dataset: mnist-fashionmnist-32
+2025-05-28 21:37:12,550 - root - INFO - Normal class: [0]
+2025-05-28 21:37:12,550 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 21:37:12,550 - root - INFO - Network: cifar10_LeNet
+2025-05-28 21:37:12,550 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 21:37:12,550 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 21:37:12,578 - root - INFO - Computation device: cuda
+2025-05-28 21:37:12,578 - root - INFO - Number of dataloader workers: 0
+2025-05-28 21:40:26,742 - root - INFO - Log file is ../log/mnist-fashionmnist-32/log.txt.
+2025-05-28 21:40:26,742 - root - INFO - Data path is ../data.
+2025-05-28 21:40:26,742 - root - INFO - Export path is ../log/mnist-fashionmnist-32.
+2025-05-28 21:40:26,742 - root - INFO - Dataset: mnist-fashionmnist-32
+2025-05-28 21:40:26,742 - root - INFO - Normal class: [0]
+2025-05-28 21:40:26,743 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 21:40:26,743 - root - INFO - Network: cifar10_LeNet
+2025-05-28 21:40:26,743 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 21:40:26,743 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 21:40:26,768 - root - INFO - Computation device: cuda
+2025-05-28 21:40:26,768 - root - INFO - Number of dataloader workers: 0
+2025-05-28 21:40:26,863 - root - INFO - Pretraining: True
+2025-05-28 21:40:26,863 - root - INFO - Pretraining optimizer: adam
+2025-05-28 21:40:26,863 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 21:40:26,863 - root - INFO - Pretraining epochs: 350
+2025-05-28 21:40:26,863 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 21:40:26,863 - root - INFO - Pretraining batch size: 200
+2025-05-28 21:40:26,863 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 21:40:29,662 - root - INFO - Starting pretraining...
+2025-05-28 21:42:41,069 - root - INFO - Log file is ../log/mnist-fashionmnist-32/log.txt.
+2025-05-28 21:42:41,069 - root - INFO - Data path is ../data.
+2025-05-28 21:42:41,069 - root - INFO - Export path is ../log/mnist-fashionmnist-32.
+2025-05-28 21:42:41,069 - root - INFO - Dataset: mnist-fashionmnist-32
+2025-05-28 21:42:41,069 - root - INFO - Normal class: [0]
+2025-05-28 21:42:41,069 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 21:42:41,070 - root - INFO - Network: cifar10_LeNet
+2025-05-28 21:42:41,070 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 21:42:41,070 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 21:42:41,098 - root - INFO - Computation device: cuda
+2025-05-28 21:42:41,098 - root - INFO - Number of dataloader workers: 0
+2025-05-28 21:42:41,193 - root - INFO - Pretraining: True
+2025-05-28 21:42:41,194 - root - INFO - Pretraining optimizer: adam
+2025-05-28 21:42:41,194 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 21:42:41,194 - root - INFO - Pretraining epochs: 350
+2025-05-28 21:42:41,194 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 21:42:41,194 - root - INFO - Pretraining batch size: 200
+2025-05-28 21:42:41,194 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 21:42:44,002 - root - INFO - Starting pretraining...
+2025-05-28 21:42:58,807 - root - INFO -   Epoch 1/350	 Time: 14.801	 Loss: 175.16992284
+2025-05-28 21:43:12,807 - root - INFO -   Epoch 2/350	 Time: 13.999	 Loss: 46.25949417
+2025-05-28 21:43:26,766 - root - INFO -   Epoch 3/350	 Time: 13.959	 Loss: 31.05130295
+2025-05-28 21:43:41,479 - root - INFO - Log file is ../log/mnist-fashionmnist-32/log.txt.
+2025-05-28 21:43:41,479 - root - INFO - Data path is ../data.
+2025-05-28 21:43:41,479 - root - INFO - Export path is ../log/mnist-fashionmnist-32.
+2025-05-28 21:43:41,479 - root - INFO - Dataset: mnist-fashionmnist-32
+2025-05-28 21:43:41,479 - root - INFO - Normal class: [0]
+2025-05-28 21:43:41,480 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 21:43:41,480 - root - INFO - Network: cifar10_LeNet
+2025-05-28 21:43:41,480 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 21:43:41,480 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 21:43:41,507 - root - INFO - Computation device: cuda
+2025-05-28 21:43:41,507 - root - INFO - Number of dataloader workers: 0
+2025-05-28 21:43:41,603 - root - INFO - Pretraining: True
+2025-05-28 21:43:41,603 - root - INFO - Pretraining optimizer: adam
+2025-05-28 21:43:41,603 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 21:43:41,603 - root - INFO - Pretraining epochs: 350
+2025-05-28 21:43:41,603 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 21:43:41,603 - root - INFO - Pretraining batch size: 200
+2025-05-28 21:43:41,603 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 21:43:44,403 - root - INFO - Starting pretraining...

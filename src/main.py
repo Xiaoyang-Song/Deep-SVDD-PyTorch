@@ -20,7 +20,8 @@ from datasets.main import load_dataset
 ################################################################################
 @click.command()
 @click.argument('dataset_name', type=click.Choice(['mnist', 'cifar10', 'svhn', 'fashionmnist', 
-                                                   'cifar10-svhn', 'mnist-fashionmnist']))
+                                                   'cifar10-svhn', 'mnist-fashionmnist',
+                                                   'mnist-fashionmnist-32']))
 @click.argument('net_name', type=click.Choice(['mnist_LeNet', 'cifar10_LeNet', 'cifar10_LeNet_ELU']))
 @click.argument('xp_path', type=click.Path(exists=True))
 @click.argument('data_path', type=click.Path(exists=True))

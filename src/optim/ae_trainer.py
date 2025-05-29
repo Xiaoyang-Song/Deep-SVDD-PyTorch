@@ -49,6 +49,7 @@ class AETrainer(BaseTrainer):
             for data in train_loader:
                 inputs, _, _ = data
                 inputs = inputs.to(self.device)
+                # print(inputs.shape)
 
                 # Zero the network parameter gradients
                 optimizer.zero_grad()

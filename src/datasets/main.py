@@ -9,7 +9,8 @@ def load_dataset(dataset_name, data_path, normal_class):
     """Loads the dataset."""
 
     implemented_datasets = ('mnist', 'cifar10', 'fashionmnist', 'svhn', 
-                            'cifar10-svhn', 'mnist-fashionmnist')
+                            'cifar10-svhn', 'mnist-fashionmnist',
+                            'mnist-fashionmnist-32')
     assert dataset_name in implemented_datasets
 
     dataset = None
@@ -34,6 +35,11 @@ def load_dataset(dataset_name, data_path, normal_class):
     if dataset_name == "mnist-fashionmnist":
         ind = 'mnist'
         ood = 'fashionmnist'
+        dataset = BTNDataset(root=data_path, ind=ind, ood=ood)
+    
+    if dataset_name == "mnist-fashionmnist-32":
+        ind = 'mnist-32'
+        ood = 'fashionmnist-32'
         dataset = BTNDataset(root=data_path, ind=ind, ood=ood)
 
     return dataset

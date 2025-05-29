@@ -19,7 +19,8 @@ class BTNDataset(TorchvisionDataset):
         target_transform = None
         
         # InD
-        assert ind in ['mnist', 'fashionmnist', 'cifar10'], f"Unknown dataset: {ind}"
+        assert ind in ['mnist', 'fashionmnist', 'cifar10',
+                       'mnist-32'], f"Unknown dataset: {ind}"
         if ind == 'cifar10':
             c=3
             ind_train = CIFAR10(root=self.root, train=True, download=True, transform=transform, target_transform=target_transform)
@@ -33,10 +34,25 @@ class BTNDataset(TorchvisionDataset):
             ind_test = MNIST(root=self.root, train=False, download=True, transform=transform, target_transform=target_transform)
             train_set = ind_train.train_data
             ind_test_set = ind_test.test_data
+
+        elif ind == 'mnist-32':
+            c=3
+            print("MNIST-32 dataset selected")
+            transform = transforms.Compose([ transforms.Resize((32, 32)), 
+                                            transforms.Grayscale(num_output_channels=3),
+                                            transforms.ToTensor()])
+            ind_train = MNIST(root=self.root, download=True, train=True, transform=transform)
+            ind_test = MNIST(root=self.root, download=True, train=False, transform=transform)
+            # n_test=10000
+            # test_set = Subset(test_set, range(n_test))
+            train_set = ind_train.train_data
+            ind_test_set = ind_test.test_data
+
         print(f"InD Train set shape: {ind_train.data.shape}, InD Test set shape: {ind_test.data.shape}")
 
         # OOD
-        assert ood in ['mnist', 'fashionmnist', 'svhn'], f"Unknown dataset: {ood}"
+        assert ood in ['mnist', 'fashionmnist', 'svhn',
+                       'fashionmnist-32'], f"Unknown dataset: {ood}"
         if ood == 'svhn':
             ood_test = SVHN(root=self.root, split='test', download=True, transform=transform, target_transform=target_transform)
             ood_test.data = ood_test.data.transpose((0, 2, 3, 1))  # SVHN data is in (N, C, H, W) format
@@ -45,6 +61,16 @@ class BTNDataset(TorchvisionDataset):
         elif ood == 'fashionmnist':
             ood_test = FashionMNIST(root=self.root, train=False, download=True, transform=transform, target_transform=target_transform)
             ood_test_set = ood_test.test_data
+
+        elif ood == 'fashionmnist-32':
+            transform = transforms.Compose([ transforms.Resize((32, 32)), 
+                                    transforms.Grayscale(num_output_channels=3),
+                                    transforms.ToTensor()])
+            ood_test = FashionMNIST(root=self.root, download=True, train=False, transform=transform)
+            # n_test=5000
+            # tset = Subset(tset, range(n_test))
+            ood_test_set = ood_test.test_data
+
         print(f"OoD Test set shape: {ood_test.data.shape}")
 
         # Train set creation
@@ -86,7 +112,10 @@ class MyBTNDataset(VisionDataset):
         # doing this so that it is consistent with all other datasets
         # to return a PIL Image
         if self.c != 1:
-            img = Image.fromarray(img)
+            if type(img) == np.ndarray:
+                img = Image.fromarray(img)
+            else:
+                img = Image.fromarray(img.numpy())
         else:
             if type(img) == np.ndarray:
                 img = Image.fromarray(img, mode='L')
