@@ -7,6 +7,7 @@ from .preprocessing import get_target_label_idx, global_contrast_normalization
 import numpy as np
 import torch
 import torchvision.transforms as transforms
+from .imagenet import *
 
 
 class BTNDataset(TorchvisionDataset):
@@ -88,7 +89,8 @@ class BTNDataset(TorchvisionDataset):
             # print(ood_test_set[0])
 
         elif ood == 'imagenet':
-            raise NotImplementedError("Imagenet dataset is not implemented yet.")
+            # raise NotImplementedError("Imagenet dataset is not implemented yet.")
+            train_set, test_set = imagenet10_set_loader(dset_id=0)
 
         print(f"OoD Test set shape: {ood_test_set.shape}")
 
