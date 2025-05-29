@@ -1,0 +1,109 @@
+2025-05-28 23:02:10,570 - root - INFO - Log file is ../log/mnist-svhn/log.txt.
+2025-05-28 23:02:10,570 - root - INFO - Data path is ../data.
+2025-05-28 23:02:10,570 - root - INFO - Export path is ../log/mnist-svhn.
+2025-05-28 23:02:10,570 - root - INFO - Dataset: mnist-svhn
+2025-05-28 23:02:10,570 - root - INFO - Normal class: [0]
+2025-05-28 23:02:10,570 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 23:02:10,570 - root - INFO - Network: cifar10_LeNet
+2025-05-28 23:02:10,570 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 23:02:10,570 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 23:02:10,597 - root - INFO - Computation device: cuda
+2025-05-28 23:02:10,598 - root - INFO - Number of dataloader workers: 0
+2025-05-28 23:02:26,104 - root - INFO - Pretraining: True
+2025-05-28 23:02:26,104 - root - INFO - Pretraining optimizer: adam
+2025-05-28 23:02:26,104 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 23:02:26,104 - root - INFO - Pretraining epochs: 350
+2025-05-28 23:02:26,105 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 23:02:26,105 - root - INFO - Pretraining batch size: 200
+2025-05-28 23:02:26,105 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 23:02:28,748 - root - INFO - Starting pretraining...
+2025-05-28 23:02:38,708 - root - INFO -   Epoch 1/350	 Time: 9.959	 Loss: 149.60075370
+2025-05-28 23:02:48,355 - root - INFO -   Epoch 2/350	 Time: 9.647	 Loss: 40.62927261
+2025-05-28 23:05:32,526 - root - INFO - Log file is ../log/mnist-svhn/log.txt.
+2025-05-28 23:05:32,526 - root - INFO - Data path is ../data.
+2025-05-28 23:05:32,527 - root - INFO - Export path is ../log/mnist-svhn.
+2025-05-28 23:05:32,527 - root - INFO - Dataset: mnist-svhn
+2025-05-28 23:05:32,527 - root - INFO - Normal class: [0]
+2025-05-28 23:05:32,527 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 23:05:32,527 - root - INFO - Network: cifar10_LeNet
+2025-05-28 23:05:32,527 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 23:05:32,527 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 23:05:32,555 - root - INFO - Computation device: cuda
+2025-05-28 23:05:32,556 - root - INFO - Number of dataloader workers: 0
+2025-05-28 23:05:48,089 - root - INFO - Pretraining: True
+2025-05-28 23:05:48,090 - root - INFO - Pretraining optimizer: adam
+2025-05-28 23:05:48,090 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 23:05:48,090 - root - INFO - Pretraining epochs: 1
+2025-05-28 23:05:48,090 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 23:05:48,090 - root - INFO - Pretraining batch size: 200
+2025-05-28 23:05:48,090 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 23:05:50,815 - root - INFO - Starting pretraining...
+2025-05-28 23:06:00,638 - root - INFO -   Epoch 1/1	 Time: 9.822	 Loss: 145.02886959
+2025-05-28 23:06:00,638 - root - INFO - Pretraining time: 9.823
+2025-05-28 23:06:00,638 - root - INFO - Finished pretraining.
+2025-05-28 23:06:00,638 - root - INFO - Testing autoencoder...
+2025-05-28 23:06:05,083 - root - INFO - Test set Loss: 368.88876138
+2025-05-28 23:06:05,106 - root - INFO - Test set AUC: 96.99%
+2025-05-28 23:06:05,106 - root - INFO - Autoencoder testing time: 4.468
+2025-05-28 23:06:05,106 - root - INFO - Finished testing autoencoder.
+2025-05-28 23:06:05,110 - root - INFO - Training optimizer: adam
+2025-05-28 23:06:05,110 - root - INFO - Training learning rate: 0.0001
+2025-05-28 23:06:05,110 - root - INFO - Training epochs: 1
+2025-05-28 23:06:05,110 - root - INFO - Training learning rate scheduler milestones: (50,)
+2025-05-28 23:06:05,110 - root - INFO - Training batch size: 200
+2025-05-28 23:06:05,110 - root - INFO - Training weight decay: 5e-07
+2025-05-28 23:06:05,112 - root - INFO - Initializing center c...
+2025-05-28 23:06:11,551 - root - INFO - Center c initialized.
+2025-05-28 23:06:11,551 - root - INFO - Starting training...
+2025-05-28 23:06:19,385 - root - INFO -   Epoch 1/1	 Time: 7.833	 Loss: 1.91754736
+2025-05-28 23:06:19,387 - root - INFO - Training time: 7.835
+2025-05-28 23:06:19,387 - root - INFO - Finished training.
+2025-05-28 23:06:19,387 - root - INFO - Starting testing...
+2025-05-28 23:06:23,401 - root - INFO - Testing time: 4.013
+2025-05-28 23:06:23,508 - root - INFO - Test set AUC: 99.80%
+2025-05-28 23:06:23,509 - root - INFO - Testing TPR95: 0.9907
+2025-05-28 23:06:23,510 - root - INFO - Finished testing.
+2025-05-28 23:08:50,575 - root - INFO - Log file is ../log/mnist-svhn/log.txt.
+2025-05-28 23:08:50,576 - root - INFO - Data path is ../data.
+2025-05-28 23:08:50,576 - root - INFO - Export path is ../log/mnist-svhn.
+2025-05-28 23:08:50,576 - root - INFO - Dataset: mnist-svhn
+2025-05-28 23:08:50,576 - root - INFO - Normal class: [0]
+2025-05-28 23:08:50,576 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 23:08:50,576 - root - INFO - Network: cifar10_LeNet
+2025-05-28 23:08:50,576 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 23:08:50,576 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 23:08:50,603 - root - INFO - Computation device: cuda
+2025-05-28 23:08:50,603 - root - INFO - Number of dataloader workers: 0
+2025-05-28 23:09:05,955 - root - INFO - Pretraining: True
+2025-05-28 23:09:05,956 - root - INFO - Pretraining optimizer: adam
+2025-05-28 23:09:05,956 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 23:09:05,956 - root - INFO - Pretraining epochs: 1
+2025-05-28 23:09:05,956 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 23:09:05,956 - root - INFO - Pretraining batch size: 200
+2025-05-28 23:09:05,956 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 23:09:08,597 - root - INFO - Starting pretraining...
+2025-05-28 23:09:18,472 - root - INFO -   Epoch 1/1	 Time: 9.874	 Loss: 129.18323157
+2025-05-28 23:09:18,473 - root - INFO - Pretraining time: 9.876
+2025-05-28 23:09:18,473 - root - INFO - Finished pretraining.
+2025-05-28 23:09:18,473 - root - INFO - Testing autoencoder...
+2025-05-28 23:09:22,898 - root - INFO - Test set Loss: 338.20815865
+2025-05-28 23:09:22,918 - root - INFO - Test set AUC: 96.17%
+2025-05-28 23:09:22,918 - root - INFO - Autoencoder testing time: 4.445
+2025-05-28 23:09:22,918 - root - INFO - Finished testing autoencoder.
+2025-05-28 23:09:22,922 - root - INFO - Training optimizer: adam
+2025-05-28 23:09:22,922 - root - INFO - Training learning rate: 0.0001
+2025-05-28 23:09:22,922 - root - INFO - Training epochs: 1
+2025-05-28 23:09:22,922 - root - INFO - Training learning rate scheduler milestones: (50,)
+2025-05-28 23:09:22,922 - root - INFO - Training batch size: 200
+2025-05-28 23:09:22,922 - root - INFO - Training weight decay: 5e-07
+2025-05-28 23:09:22,924 - root - INFO - Initializing center c...
+2025-05-28 23:09:29,351 - root - INFO - Center c initialized.
+2025-05-28 23:09:29,351 - root - INFO - Starting training...
+2025-05-28 23:09:37,184 - root - INFO -   Epoch 1/1	 Time: 7.833	 Loss: 1.92862583
+2025-05-28 23:09:37,184 - root - INFO - Training time: 7.833
+2025-05-28 23:09:37,184 - root - INFO - Finished training.
+2025-05-28 23:09:37,184 - root - INFO - Starting testing...
+2025-05-28 23:09:41,169 - root - INFO - Testing time: 3.985
+2025-05-28 23:09:41,277 - root - INFO - Test set AUC: 99.96%
+2025-05-28 23:09:41,278 - root - INFO - Testing TPR95: 0.9986
+2025-05-28 23:09:41,278 - root - INFO - Finished testing.

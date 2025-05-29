@@ -15,3 +15,7 @@
 # sbatch jobs/j_mnist-fashionmnist.sh
 
 sbatch jobs/j_mnist-fashionmnist-32.sh
+
+sbatch jobs/j_mnist-cifar10.sh
+
+sbatch jobs/j_mnist-svhn.sh

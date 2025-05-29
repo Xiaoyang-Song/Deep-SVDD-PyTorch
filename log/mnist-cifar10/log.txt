@@ -1,0 +1,117 @@
+2025-05-28 22:21:27,825 - root - INFO - Log file is ../log/mnist-cifar10/log.txt.
+2025-05-28 22:21:27,825 - root - INFO - Data path is ../data.
+2025-05-28 22:21:27,826 - root - INFO - Export path is ../log/mnist-cifar10.
+2025-05-28 22:21:27,826 - root - INFO - Dataset: mnist-cifar10
+2025-05-28 22:21:27,826 - root - INFO - Normal class: [0]
+2025-05-28 22:21:27,826 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 22:21:27,826 - root - INFO - Network: cifar10_LeNet
+2025-05-28 22:21:27,826 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 22:21:27,827 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 22:21:27,857 - root - INFO - Computation device: cuda
+2025-05-28 22:21:27,857 - root - INFO - Number of dataloader workers: 0
+2025-05-28 22:21:47,600 - root - INFO - Log file is ../log/mnist-cifar10/log.txt.
+2025-05-28 22:21:47,600 - root - INFO - Data path is ../data.
+2025-05-28 22:21:47,600 - root - INFO - Export path is ../log/mnist-cifar10.
+2025-05-28 22:21:47,600 - root - INFO - Dataset: mnist-cifar10
+2025-05-28 22:21:47,600 - root - INFO - Normal class: [0]
+2025-05-28 22:21:47,600 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 22:21:47,601 - root - INFO - Network: cifar10_LeNet
+2025-05-28 22:21:47,601 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 22:21:47,601 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 22:21:47,642 - root - INFO - Computation device: cuda
+2025-05-28 22:21:47,642 - root - INFO - Number of dataloader workers: 0
+2025-05-28 22:24:44,401 - root - INFO - Log file is ../log/mnist-cifar10/log.txt.
+2025-05-28 22:24:44,401 - root - INFO - Data path is ../data.
+2025-05-28 22:24:44,401 - root - INFO - Export path is ../log/mnist-cifar10.
+2025-05-28 22:24:44,401 - root - INFO - Dataset: mnist-cifar10
+2025-05-28 22:24:44,401 - root - INFO - Normal class: [0]
+2025-05-28 22:24:44,401 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 22:24:44,401 - root - INFO - Network: cifar10_LeNet
+2025-05-28 22:24:44,401 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 22:24:44,401 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 22:24:44,426 - root - INFO - Computation device: cuda
+2025-05-28 22:24:44,426 - root - INFO - Number of dataloader workers: 0
+2025-05-28 22:29:07,584 - root - INFO - Log file is ../log/mnist-cifar10/log.txt.
+2025-05-28 22:29:07,584 - root - INFO - Data path is ../data.
+2025-05-28 22:29:07,584 - root - INFO - Export path is ../log/mnist-cifar10.
+2025-05-28 22:29:07,584 - root - INFO - Dataset: mnist-cifar10
+2025-05-28 22:29:07,584 - root - INFO - Normal class: [0]
+2025-05-28 22:29:07,584 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 22:29:07,585 - root - INFO - Network: cifar10_LeNet
+2025-05-28 22:29:07,585 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 22:29:07,585 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 22:29:07,623 - root - INFO - Computation device: cuda
+2025-05-28 22:29:07,623 - root - INFO - Number of dataloader workers: 0
+2025-05-28 22:29:21,013 - root - INFO - Log file is ../log/mnist-cifar10/log.txt.
+2025-05-28 22:29:21,013 - root - INFO - Data path is ../data.
+2025-05-28 22:29:21,013 - root - INFO - Export path is ../log/mnist-cifar10.
+2025-05-28 22:29:21,013 - root - INFO - Dataset: mnist-cifar10
+2025-05-28 22:29:21,013 - root - INFO - Normal class: [0]
+2025-05-28 22:29:21,013 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 22:29:21,013 - root - INFO - Network: cifar10_LeNet
+2025-05-28 22:29:21,013 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 22:29:21,013 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 22:29:21,038 - root - INFO - Computation device: cuda
+2025-05-28 22:29:21,038 - root - INFO - Number of dataloader workers: 0
+2025-05-28 22:30:10,260 - root - INFO - Log file is ../log/mnist-cifar10/log.txt.
+2025-05-28 22:30:10,260 - root - INFO - Data path is ../data.
+2025-05-28 22:30:10,260 - root - INFO - Export path is ../log/mnist-cifar10.
+2025-05-28 22:30:10,261 - root - INFO - Dataset: mnist-cifar10
+2025-05-28 22:30:10,261 - root - INFO - Normal class: [0]
+2025-05-28 22:30:10,261 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 22:30:10,261 - root - INFO - Network: cifar10_LeNet
+2025-05-28 22:30:10,261 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 22:30:10,261 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 22:30:10,286 - root - INFO - Computation device: cuda
+2025-05-28 22:30:10,287 - root - INFO - Number of dataloader workers: 0
+2025-05-28 22:53:48,972 - root - INFO - Log file is ../log/mnist-cifar10/log.txt.
+2025-05-28 22:53:48,987 - root - INFO - Data path is ../data.
+2025-05-28 22:53:48,987 - root - INFO - Export path is ../log/mnist-cifar10.
+2025-05-28 22:53:48,987 - root - INFO - Dataset: mnist-cifar10
+2025-05-28 22:53:48,987 - root - INFO - Normal class: [0]
+2025-05-28 22:53:48,987 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 22:53:48,987 - root - INFO - Network: cifar10_LeNet
+2025-05-28 22:53:48,987 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 22:53:48,987 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 22:53:48,988 - root - INFO - Computation device: cpu
+2025-05-28 22:53:48,988 - root - INFO - Number of dataloader workers: 0
+2025-05-28 22:54:10,498 - root - INFO - Pretraining: True
+2025-05-28 22:54:10,498 - root - INFO - Pretraining optimizer: adam
+2025-05-28 22:54:10,498 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 22:54:10,498 - root - INFO - Pretraining epochs: 350
+2025-05-28 22:54:10,498 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 22:54:10,498 - root - INFO - Pretraining batch size: 200
+2025-05-28 22:54:10,499 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 22:54:10,527 - root - INFO - Starting pretraining...
+2025-05-28 22:56:17,383 - root - INFO - Log file is ../log/mnist-cifar10/log.txt.
+2025-05-28 22:56:17,394 - root - INFO - Data path is ../data.
+2025-05-28 22:56:17,394 - root - INFO - Export path is ../log/mnist-cifar10.
+2025-05-28 22:56:17,394 - root - INFO - Dataset: mnist-cifar10
+2025-05-28 22:56:17,395 - root - INFO - Normal class: [0]
+2025-05-28 22:56:17,395 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 22:56:17,395 - root - INFO - Network: cifar10_LeNet
+2025-05-28 22:56:17,395 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 22:56:17,395 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 22:56:17,395 - root - INFO - Computation device: cpu
+2025-05-28 22:56:17,395 - root - INFO - Number of dataloader workers: 0
+2025-05-28 22:58:58,508 - root - INFO - Log file is ../log/mnist-cifar10/log.txt.
+2025-05-28 22:58:58,524 - root - INFO - Data path is ../data.
+2025-05-28 22:58:58,524 - root - INFO - Export path is ../log/mnist-cifar10.
+2025-05-28 22:58:58,525 - root - INFO - Dataset: mnist-cifar10
+2025-05-28 22:58:58,525 - root - INFO - Normal class: [0]
+2025-05-28 22:58:58,525 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 22:58:58,525 - root - INFO - Network: cifar10_LeNet
+2025-05-28 22:58:58,525 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 22:58:58,525 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 22:58:58,554 - root - INFO - Computation device: cuda
+2025-05-28 22:58:58,554 - root - INFO - Number of dataloader workers: 0
+2025-05-28 22:59:13,692 - root - INFO - Pretraining: True
+2025-05-28 22:59:13,693 - root - INFO - Pretraining optimizer: adam
+2025-05-28 22:59:13,693 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 22:59:13,693 - root - INFO - Pretraining epochs: 350
+2025-05-28 22:59:13,693 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 22:59:13,693 - root - INFO - Pretraining batch size: 200
+2025-05-28 22:59:13,693 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 22:59:16,307 - root - INFO - Starting pretraining...
+2025-05-28 22:59:26,217 - root - INFO -   Epoch 1/350	 Time: 9.908	 Loss: 137.18347075
+2025-05-28 22:59:35,812 - root - INFO -   Epoch 2/350	 Time: 9.595	 Loss: 40.65169177

@@ -757,3 +757,42 @@
 2025-05-21 15:29:46,680 - root - INFO - Test set AUC: 12.72%
 2025-05-21 15:29:46,681 - root - INFO - Testing TPR95: 0.0030
 2025-05-21 15:29:46,681 - root - INFO - Finished testing.
+2025-05-28 22:40:17,797 - root - INFO - Log file is ../log/cifar10-svhn/log.txt.
+2025-05-28 22:40:17,813 - root - INFO - Data path is ../data.
+2025-05-28 22:40:17,814 - root - INFO - Export path is ../log/cifar10-svhn.
+2025-05-28 22:40:17,814 - root - INFO - Dataset: cifar10-svhn
+2025-05-28 22:40:17,814 - root - INFO - Normal class: [0]
+2025-05-28 22:40:17,814 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 22:40:17,815 - root - INFO - Network: cifar10_LeNet
+2025-05-28 22:40:17,815 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 22:40:17,815 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 22:40:17,862 - root - INFO - Computation device: cuda
+2025-05-28 22:40:17,862 - root - INFO - Number of dataloader workers: 0
+2025-05-28 22:40:21,541 - root - INFO - Pretraining: True
+2025-05-28 22:40:21,541 - root - INFO - Pretraining optimizer: adam
+2025-05-28 22:40:21,541 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 22:40:21,541 - root - INFO - Pretraining epochs: 350
+2025-05-28 22:40:21,541 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 22:40:21,541 - root - INFO - Pretraining batch size: 200
+2025-05-28 22:40:21,541 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 22:40:24,325 - root - INFO - Starting pretraining...
+2025-05-28 22:40:32,580 - root - INFO -   Epoch 1/350	 Time: 8.254	 Loss: 89.30571713
+2025-05-28 22:40:53,446 - root - INFO - Log file is ../log/cifar10-svhn/log.txt.
+2025-05-28 22:40:53,447 - root - INFO - Data path is ../data.
+2025-05-28 22:40:53,447 - root - INFO - Export path is ../log/cifar10-svhn.
+2025-05-28 22:40:53,447 - root - INFO - Dataset: cifar10-svhn
+2025-05-28 22:40:53,447 - root - INFO - Normal class: [0]
+2025-05-28 22:40:53,447 - root - INFO - Conducting cross-dataset experiment...
+2025-05-28 22:40:53,447 - root - INFO - Network: cifar10_LeNet
+2025-05-28 22:40:53,447 - root - INFO - Deep SVDD objective: one-class
+2025-05-28 22:40:53,447 - root - INFO - Nu-paramerter: 0.10
+2025-05-28 22:40:53,472 - root - INFO - Computation device: cuda
+2025-05-28 22:40:53,473 - root - INFO - Number of dataloader workers: 0
+2025-05-28 22:40:56,643 - root - INFO - Pretraining: True
+2025-05-28 22:40:56,643 - root - INFO - Pretraining optimizer: adam
+2025-05-28 22:40:56,643 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-28 22:40:56,643 - root - INFO - Pretraining epochs: 350
+2025-05-28 22:40:56,643 - root - INFO - Pretraining learning rate scheduler milestones: (250,)
+2025-05-28 22:40:56,643 - root - INFO - Pretraining batch size: 200
+2025-05-28 22:40:56,643 - root - INFO - Pretraining weight decay: 5e-07
+2025-05-28 22:40:59,429 - root - INFO - Starting pretraining...
