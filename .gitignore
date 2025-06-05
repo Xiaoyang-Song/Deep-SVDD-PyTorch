@@ -106,4 +106,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-/data
+/data/
+/data/val/

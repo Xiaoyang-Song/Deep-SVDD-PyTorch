@@ -225,6 +225,10 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, ob
             X_normals = torch.tensor(np.transpose(dataset.test_set.data[idx_sorted[:32], ...], (0, 3, 1, 2)))
             X_outliers = torch.tensor(np.transpose(dataset.test_set.data[idx_sorted[-32:], ...], (0, 3, 1, 2)))
 
+        elif dataset_name == 'mnist-imagenet':
+            X_normals = torch.tensor(np.transpose(dataset.test_set.data[idx_sorted[:32], ...], (0, 3, 1, 2)))
+            X_outliers = torch.tensor(np.transpose(dataset.test_set.data[idx_sorted[-32:], ...], (0, 3, 1, 2)))
+
         plot_images_grid(X_normals, export_img=xp_path + '/normals', title='Most normal examples', padding=2)
         plot_images_grid(X_outliers, export_img=xp_path + '/outliers', title='Most anomalous examples', padding=2)
 

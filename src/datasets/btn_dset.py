@@ -8,6 +8,7 @@ import numpy as np
 import torch
 import torchvision.transforms as transforms
 from .imagenet import *
+from tqdm import tqdm
 
 
 class BTNDataset(TorchvisionDataset):
@@ -89,8 +90,19 @@ class BTNDataset(TorchvisionDataset):
             # print(ood_test_set[0])
 
         elif ood == 'imagenet':
+            print("OoD ImageNet10 dataset selected - Processing... [note: this may run slowly]")
             # raise NotImplementedError("Imagenet dataset is not implemented yet.")
-            train_set, test_set = imagenet10_set_loader(dset_id=0)
+            imagenet10_train, imagenet10_val = imagenet10_set_loader(dset_id=0) # By default, the first 10 specified classes are chosen.
+            print(f"Training set size: {len(imagenet10_train)}; validation set size: {len(imagenet10_val)}.") # 13000, 500
+            print(f"Use training set as OoD testing.")
+            # For ImageNet, use tqdm to track progress of data processing
+            ood_test = imagenet10_train 
+            ood_test_set = []
+            for img, _ in tqdm(ood_test):
+                ood_test_set.append(img)
+            ood_test_set = (torch.stack(ood_test_set).permute(0, 2, 3, 1).numpy() * 255).astype(np.uint8)
+            # One-line version below, but this has no progress bar.
+            # ood_test_set = (torch.stack([img for img, _ in train_set]).permute(0, 2, 3, 1).numpy() * 255).astype(np.uint8)
 
         print(f"OoD Test set shape: {ood_test_set.shape}")
 
@@ -133,6 +145,7 @@ class MyBTNDataset(VisionDataset):
         # doing this so that it is consistent with all other datasets
         # to return a PIL Image
         # print(type(img))
+        # print(img)
         if self.c != 1:
             if type(img) == np.ndarray:
                 img = Image.fromarray(img)
